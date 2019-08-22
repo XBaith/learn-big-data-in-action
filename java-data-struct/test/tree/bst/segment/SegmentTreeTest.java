@@ -19,4 +19,13 @@ public class SegmentTreeTest {
         assertThat(6,is(segTree.querry(0,2)));
         assertThat(15,is(segTree.querry(0,4)));
     }
+
+    @Test
+    public void update(){
+        Integer[] arr = {1, 2, 3, 4, 5};
+        SegmentTree<Integer> segTree = new SegmentTree<>(arr, (e1, e2) -> e1 + e2);
+
+        segTree.set(0,2);
+        assertThat(7,is(segTree.querry(0,2)));
+    }
 }
