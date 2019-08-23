@@ -46,11 +46,15 @@ public class Trie {
         }
     }
 
+    /**
+     * 向字典树中添加单词(递归)
+     * @param word
+     */
     public void recAdd(String word){
         recAdd(word,root,0);
     }
 
-    public void recAdd(String word, Node node, int index) {
+    private void recAdd(String word, Node node, int index) {
         if(index >= word.length()){
             if(!node.isWord) {
                 node.isWord = true;
@@ -62,10 +66,61 @@ public class Trie {
         char c = word.charAt(index);
         if (node.next.get(c) == null) {
             node.next.put(c, new Node());
-        }else{
-            recAdd(word, node.next.get(c), index + 1);
         }
+        recAdd(word, node.next.get(c), index + 1);
+    }
 
+    /**
+     * 查找Tire中是否包含某个词
+     * @param word
+     * @return
+     */
+    public boolean contains(String word){
+        Node cur = root;
+        for(int i = 0 ; i < word.length(); i++){
+            char c = word.charAt(i);
+            if(cur.next.get(c) == null){
+                return false;
+            }
+            cur = cur.next.get(c);
+        }
+        return cur.isWord;
+    }
+
+    public boolean isPrefix(String prefix){
+        Node cur = root;
+        for(int i = 0 ; i < prefix.length(); i++){
+            char c = prefix.charAt(i);
+            if(cur.next.get(c) == null){
+                return false;
+            }
+            cur = cur.next.get(c);
+        }
+        return true;
+    }
+
+    public boolean search(String word){
+        return match(word, root, 0);
+    }
+
+    private boolean match(String word, Node node, int index) {
+        if(index >= word.length()){
+            return node.isWord;
+        }
+        char c = word.charAt(index);
+        if(c != '.'){
+            if(node.next.get(c) == null){
+                return false;
+            }
+            match(word, node.next.get(c), index + 1);
+        }else {
+            for(char key : node.next.keySet()){
+              if(match(word, node.next.get(key), index + 1)){
+                  return true;
+              }
+            }
+        }
+        return false;
     }
 
     public int getSize() {
