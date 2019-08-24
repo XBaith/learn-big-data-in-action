@@ -1,13 +1,16 @@
 package tree.union;
 
-public class UnionFindV2 implements UnionFind {
+public class UnionFindV3 implements UnionFind {
     private int[] parents;
+    private int[] elmentsSum;
 
-    public UnionFindV2(int size){
+    public UnionFindV3(int size){
         parents = new int[size];
+        elmentsSum = new int[size];
         //初始化每个集合的根，保证每个元素都在不同的集合中
         for(int i = 0 ; i < size; i++){
             parents[i] = i;
+            elmentsSum[i] = 1;
         }
     }
 
@@ -18,6 +21,9 @@ public class UnionFindV2 implements UnionFind {
      * @return
      */
     private int find(int p){
+        if(p < 0 || p >= parents.length){
+            throw new IllegalArgumentException("out of array bound");
+        }
         while(p != parents[p]){
             p = parents[p];
         }
@@ -37,15 +43,18 @@ public class UnionFindV2 implements UnionFind {
      */
     @Override
     public void union(int p, int q) {
-        if(p < 0 || p >= parents.length || q < 0 || q >= parents.length){
-            throw new IllegalArgumentException("out of array bound");
-        }
         int pRoot = parents[p];
         int qRoot = parents[q];
         if(pRoot == qRoot){
             return;
         }
-        parents[p] = qRoot;
+        if(elmentsSum[qRoot] < elmentsSum[pRoot]){
+            parents[qRoot] = pRoot;
+            elmentsSum[pRoot] += elmentsSum[qRoot];
+        }else{
+            parents[pRoot] = qRoot;
+            elmentsSum[qRoot] += elmentsSum[pRoot];
+        }
     }
 
     /**
@@ -57,9 +66,7 @@ public class UnionFindV2 implements UnionFind {
      */
     @Override
     public boolean isConnected(int p, int q) {
-        if(p < 0 || p >= parents.length || q < 0 || q >= parents.length){
-            throw new IllegalArgumentException("out of array bound");
-        }
         return find(p) == find(q);
     }
 }
+
