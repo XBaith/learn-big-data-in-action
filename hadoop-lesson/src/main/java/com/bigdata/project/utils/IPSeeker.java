@@ -661,6 +661,7 @@ public class IPSeeker {
             beginIp = endIp = country = area = "";
         }
 
+        @Override
         public String toString() {
             return this.area + " " + this.country + "IP  Χ:" + this.beginIp + "-" + this.endIp;
         }

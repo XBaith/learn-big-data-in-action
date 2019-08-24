@@ -53,7 +53,7 @@ public class PageStatApp {
     static class MyMapper extends Mapper<LongWritable, Text, Text, LongWritable> {
 
         private LongWritable ONE = new LongWritable(1);
-
+        private LogParser parser = new LogParser();
         @Override
         protected void setup(Context context) throws IOException, InterruptedException {
             super.setup(context);
@@ -62,7 +62,7 @@ public class PageStatApp {
         @Override
         protected void map(LongWritable key, Text value, Context context) throws IOException, InterruptedException {
             String log = value.toString();
-            Map<String, String> info = LogParser.parse(log);
+            Map<String, String> info = parser.parse(log);
             String url = info.get("url");
             if(StringUtils.isNotBlank(url)){
                 String pageId = ContentUtils.getPageId(url);

@@ -11,19 +11,19 @@ public class LogParser {
     private final static int URL_INDEX = 1;
     private final static int TIME_INDEX = 17;
 
-    public static Map<String, String> parse(String log) {
-        Map<String, String> info = new HashMap<>();
-        String country = "-";
-        String province = "-";
-        String city = "-";
+    public Map<String, String> parse(String log) {
+        Map<String, String> info = new HashMap<>(16);
+        String country;
+        String province;
+        String city;
         if (StringUtils.isNotBlank(log)) {
             String[] logs = log.split("\001");
             String ip = logs[IP_INDEX];
             IPParser.RegionInfo regionInfo = IPParser.getInstance().analyseIp(ip);
 
-            country = regionInfo.getCountry();
-            province = regionInfo.getProvince();
-            city = regionInfo.getCity();
+            country = regionInfo.getCountry() == null ? "-" : regionInfo.getCountry();
+            province = regionInfo.getProvince() == null ? "-" : regionInfo.getProvince();
+            city = regionInfo.getCity() == null ? "-" : regionInfo.getCity();
 
             info.put("ip", ip);
             info.put("country", country);
@@ -35,8 +35,8 @@ public class LogParser {
         return info;
     }
 
-    public static Map<String, String> parseV2(String log) {
-        Map<String, String> info = new HashMap<>();
+    public Map<String, String> parseV2(String log) {
+        Map<String, String> info = new HashMap<>(16);
         String country = "-";
         String province = "-";
         String city = "-";

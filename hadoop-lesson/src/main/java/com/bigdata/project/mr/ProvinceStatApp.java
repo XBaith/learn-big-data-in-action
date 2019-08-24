@@ -20,11 +20,11 @@ import java.util.Map;
 public class ProvinceStatApp {
 
     public static void main(String[] args) throws Exception{
-        //System.setProperty("hadoop.home.dir", "d:\\winutil\\");
+        System.setProperty("hadoop.home.dir", "d:\\winutil\\");
         Configuration configuration = new Configuration();
 
-        Path inputPath = new Path(args[0]);
-        Path outputPath = new Path(args[1]);
+        Path inputPath = new Path("E:\\ComputerQQDownload\\trackinfo_20130721.txt");
+        Path outputPath = new Path("output/mr/province");
 
         FileSystem fileSystem = FileSystem.get(configuration);
         if(fileSystem.exists(outputPath)){
@@ -52,7 +52,7 @@ public class ProvinceStatApp {
     static class MyMapper extends Mapper<LongWritable, Text, Text, LongWritable>{
 
         private LongWritable ONE = new LongWritable(1);
-
+        private LogParser parser = new LogParser();
         @Override
         protected void setup(Context context) throws IOException, InterruptedException {
             super.setup(context);
@@ -61,7 +61,7 @@ public class ProvinceStatApp {
         @Override
         protected void map(LongWritable key, Text value, Context context) throws IOException, InterruptedException {
             String log = value.toString();
-            Map<String, String> info = LogParser.parse(log);
+            Map<String, String> info = parser.parse(log);
             String ip = info.get("ip");
             if(StringUtils.isNotBlank(ip)){
                 IPParser.RegionInfo regionInfo = IPParser.getInstance().analyseIp(ip);

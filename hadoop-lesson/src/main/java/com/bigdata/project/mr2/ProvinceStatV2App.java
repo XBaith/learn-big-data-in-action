@@ -52,6 +52,7 @@ public class ProvinceStatV2App {
     static class MyMapper extends Mapper<LongWritable, Text, Text, LongWritable>{
 
         private LongWritable ONE = new LongWritable(1);
+        private LogParser parser = new LogParser();
 
         @Override
         protected void setup(Context context) throws IOException, InterruptedException {
@@ -61,7 +62,7 @@ public class ProvinceStatV2App {
         @Override
         protected void map(LongWritable key, Text value, Context context) throws IOException, InterruptedException {
             String log = value.toString();
-            Map<String, String> info = LogParser.parseV2(log);
+            Map<String, String> info = parser.parseV2(log);
             String ip = info.get("ip");
             if(StringUtils.isNotBlank(ip)){
                 String province = info.get("province");

@@ -1,17 +1,16 @@
 package com.hadoop.guide.serialization;
 
 import org.apache.hadoop.io.*;
-
-import static org.junit.Assert.*;
-import static org.hamcrest.CoreMatchers.*;
-import static org.junit.matchers.JUnitMatchers.*;
-
 import org.apache.hadoop.util.StringUtils;
 import org.hamcrest.Matchers;
 import org.junit.Before;
 import org.junit.Test;
 
 import java.io.*;
+
+import static org.apache.hadoop.io.WritableComparator.*;
+import static org.hamcrest.CoreMatchers.is;
+import static org.junit.Assert.assertThat;
 
 public class MyWritable {
     @Before
@@ -32,7 +31,7 @@ public class MyWritable {
         assertThat(newWritable.get(), is(163));
     }
 
-    public static byte[] serializ(Writable writable) throws IOException{
+    private static byte[] serializ(Writable writable) throws IOException{
         ByteArrayOutputStream out = new ByteArrayOutputStream();
         DataOutputStream outputStream = new DataOutputStream(out);
         writable.write(outputStream);
@@ -40,7 +39,7 @@ public class MyWritable {
         return out.toByteArray();
     }
 
-    public static byte[] deserialize(Writable writable, byte[] bytes) throws IOException{
+    private static byte[] deserialize(Writable writable, byte[] bytes) throws IOException{
         ByteArrayInputStream in = new ByteArrayInputStream(bytes);
         DataInputStream inputStream = new DataInputStream(in);
         writable.readFields(inputStream);
@@ -50,10 +49,10 @@ public class MyWritable {
 
     @Test
     public void comparableTest() throws IOException{
-        RawComparator<IntWritable> comparator = WritableComparator.get(IntWritable.class);
+        WritableComparator comparator = get(IntWritable.class);
         IntWritable a = new IntWritable(163);
         IntWritable b = new IntWritable(67);
-        assertThat(((WritableComparator) comparator).compare(a,b), Matchers.greaterThan(0));
+        assertThat(comparator.compare(a,b), Matchers.greaterThan(0));
 
         //序列化表示
         byte[] aBytes = serializ(a);
@@ -62,7 +61,7 @@ public class MyWritable {
     }
 
     @Test
-    public void TextTest() throws IOException{
+    public void textTest() {
         String str = "hadoop";
         Text t = new Text(str);
         assertThat(t.getLength(),is(6));
@@ -84,6 +83,7 @@ public class MyWritable {
         byte[] bytes = {3, 5};
         BytesWritable bytesWritable = new BytesWritable(bytes);
         byte[] serBytes = serializ(bytesWritable);
+        //长度2的字节数组包含值3，5，则它序列化为一个4字节的整数00000002和两个字节值03，05
         assertThat(StringUtils.byteToHexString(serBytes), is("000000020305"));
     }
 

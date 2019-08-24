@@ -44,9 +44,12 @@ public class ETLApp {
     }
 
     static class MyMapper extends Mapper<LongWritable, Text, NullWritable, Text>{
+
+        private LogParser parser = new LogParser();
+
         @Override
         protected void map(LongWritable key, Text value, Context context) throws IOException, InterruptedException {
-            Map<String, String> info = LogParser.parse(value.toString());
+            Map<String, String> info = parser.parse(value.toString());
 
             String ip = info.get("ip");
             String country = info.get("country");
