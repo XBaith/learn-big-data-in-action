@@ -6,27 +6,17 @@ package scala.hello.types
 object OptionType {
 
   def ifNull(str : String): Option[String] ={
-    if(str.length > 0)
+    if(str == "fuck")
       Some("me")
     else
       None
   }
 
-  def willNull(str : String): String ={
-    if(str.length > 0)
-      "not null"
-    else
-      null
-  }
-
   def main(args: Array[String]): Unit = {
     for(input <- Set("fuck",null)){
       val str = ifNull(input)
-      var strDisplay = str.getOrElse("null param")
-      println(s"input: $input str: $strDisplay")
-
-      //NullPointerException
-      var nulStr = willNull("")
+      val strDisplay = str.getOrElse("null param")
+      println(s"Input: $input\t|\tResult: row-->$str\t|\tdisplay-->$strDisplay")
     }
 
   }

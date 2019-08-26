@@ -1,12 +1,15 @@
 package scala.hello.types
 
+/**
+  * 当一个函数需要返回两个值，返回值可以为Either。left是期望得到的值，right不是期望得到的值
+  */
 object EitherType {
 
   def divide(input : Int) : Either[Double,String] = {
     if(input != 0){
       Left(5 / input)
     }else{
-      Right("Invail number, you can't divide 0")
+      Right("Invail number, can't divide 0")
     }
   }
 
