@@ -286,6 +286,20 @@ public class BinarySearchTree<E extends Comparable<E>> {
         root = removeNode(root, e);
     }
 
+    private Node leftIsNull(Node node){
+        Node rightNode = node.right;
+        node.right = null;
+        size--;
+        return rightNode;
+    }
+
+    private Node rightIsNull(Node node){
+        Node leftNode = node.left;
+        node.left = null;
+        size--;
+        return leftNode;
+    }
+
     private Node remove(Node node, E e) {
         if(root == null){
             return null;
@@ -298,16 +312,10 @@ public class BinarySearchTree<E extends Comparable<E>> {
             node.right = remove(node.right, e);
         }else{
             if(node.left == null){
-                Node rightNode = node.right;
-                node.right = null;
-                size--;
-                return rightNode;
+                return leftIsNull(node);
             }
             if(node.right == null){
-                Node leftNode = node.left;
-                node.left = null;
-                size--;
-                return leftNode;
+                return rightIsNull(node);
             }
 
             Node successor = removeMin(node.right);
