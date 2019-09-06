@@ -15,6 +15,10 @@ object Hello {
 
     //混用默认参数值和命名参数值
     defaultParam(lastName = "Hu");
+
+    val text = "TEXT"
+    val expression = "EXPRESSION"
+    println(s"$text...${expression takeRight 3}")
   }
 
   def syaHello() = {
@@ -44,4 +48,5 @@ object Hello {
   def defaultParam(firstName:String = "Bai",lastName:String = "Xu")={
     println(s"My first name is $firstName, last name is $lastName")
   }
+
 }
