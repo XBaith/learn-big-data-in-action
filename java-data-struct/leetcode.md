@@ -21,4 +21,3 @@ class NumArray {
  * int param_1 = obj.sumRange(i,j);
  */
 ```
-怎么这么模糊？
