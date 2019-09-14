@@ -1,5 +1,5 @@
 /**
- * 在抛出InterredException之后会重置interrupt属性
+ * 在抛出InterruptedException之后会重置interrupt属性
  */
 public class InterruptThread {
 
