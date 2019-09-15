@@ -16,9 +16,9 @@ public class WordCountDriver {
     public static void main(String[] args) throws Exception{
 
         Configuration configuration = new Configuration();
-        configuration.set("fs.defaultFS", "hdfs://192.168.132.128:8020");
+        //configuration.set("fs.defaultFS", "hdfs://192.168.132.128:8020");
         System.setProperty("HADOOP_USER_NAME", "hadoop");
-        System.setProperty("hadoop.home.dir", "D:\\winutil\\");
+        //System.setProperty("hadoop.home.dir", "D:\\winutil\\");
 
         Job job = Job.getInstance(configuration);
 

@@ -13,10 +13,10 @@ import static org.hamcrest.CoreMatchers.is;
 import static org.junit.Assert.assertThat;
 
 public class MyWritable {
-    @Before
-    public void setUp(){
-        System.setProperty("hadoop.home.dir","d:\\winutil\\");
-    }
+//    @Before
+//    public void setUp(){
+//        System.setProperty("hadoop.home.dir","d:\\winutil\\");
+//    }
 
     @Test
     public void writableTest() throws Exception{

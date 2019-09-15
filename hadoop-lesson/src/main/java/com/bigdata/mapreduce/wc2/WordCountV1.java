@@ -46,7 +46,7 @@ public class WordCountV1 {
     }
 
     public static void main(String[] args) throws Exception {
-        System.setProperty("hadoop.home.dir", "d:\\winutil\\");
+     //   System.setProperty("hadoop.home.dir", "d:\\winutil\\");
         Configuration conf = new Configuration();
 
         Job job = Job.getInstance(conf, "words start with 大");
