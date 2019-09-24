@@ -1,7 +1,5 @@
 package graph.representation;
 
-import org.omg.PortableInterceptor.INACTIVE;
-
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
@@ -93,7 +91,7 @@ public class AdjList {
     }
 
     public static void main(String[] args) {
-        AdjList list = new AdjList("input/adjMartrix.txt");
+        AdjList list = new AdjList("input/g.txt");
         System.out.println(list);
     }
 }

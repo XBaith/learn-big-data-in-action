@@ -4,12 +4,12 @@ import java.io.File;
 import java.io.IOException;
 import java.util.*;
 
-public class AdjSet {
+public class AdjTreeSet {
     private int vertexes;
     private int edges;
     private TreeSet<Integer>[] adj;
 
-    public AdjSet(String path){
+    public AdjTreeSet(String path){
         File file = new File(path);
         try(Scanner scanner = new Scanner(file)){
             vertexes = scanner.nextInt();
@@ -37,7 +37,7 @@ public class AdjSet {
         }
     }
 
-    private boolean validVertex(int v) {
+    public boolean validVertex(int v) {
         if(v < 0 || v >= vertexes){
             throw new IllegalArgumentException("new Vertex@ " + v + "is invalid");
         }
@@ -89,7 +89,7 @@ public class AdjSet {
     }
 
     public static void main(String[] args) {
-        AdjSet set = new AdjSet("input/adjMartrix.txt");
+        AdjTreeSet set = new AdjTreeSet("input/g.txt");
         System.out.println(set);
     }
 }

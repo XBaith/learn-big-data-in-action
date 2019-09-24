@@ -2,23 +2,25 @@ package graph.representation;
 
 import java.io.File;
 import java.io.IOException;
-import java.util.*;
+import java.util.HashSet;
+import java.util.Scanner;
+import java.util.TreeSet;
 
-public class AdjSet {
+public class AdjHashSet {
     private int vertexes;
     private int edges;
-    private TreeSet<Integer>[] adj;
+    private HashSet<Integer>[] adj;
 
-    public AdjSet(String path){
+    public AdjHashSet(String path){
         File file = new File(path);
         try(Scanner scanner = new Scanner(file)){
             vertexes = scanner.nextInt();
             if(vertexes < 0){throw new IllegalArgumentException("vertexs must be non-negative");}
             edges = scanner.nextInt();
             if(edges < 0){throw new IllegalArgumentException("vertexs must be non-negative");}
-            adj = new TreeSet[vertexes];
+            adj = new HashSet[vertexes];
             for(int i = 0 ; i < vertexes ; i++){
-                adj[i] = new TreeSet<>();
+                adj[i] = new HashSet<>();
             }
 
             for(int i = 0 ; i < edges; i++){
@@ -37,7 +39,7 @@ public class AdjSet {
         }
     }
 
-    private boolean validVertex(int v) {
+    public boolean validVertex(int v) {
         if(v < 0 || v >= vertexes){
             throw new IllegalArgumentException("new Vertex@ " + v + "is invalid");
         }
@@ -89,7 +91,7 @@ public class AdjSet {
     }
 
     public static void main(String[] args) {
-        AdjSet set = new AdjSet("input/adjMartrix.txt");
+        AdjHashSet set = new AdjHashSet("input/g.txt");
         System.out.println(set);
     }
 }

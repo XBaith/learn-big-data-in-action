@@ -28,7 +28,7 @@ public class UnionFindV1 implements UnionFind {
     @Override
     public void union(int p, int q) {
         if (p < 0 || p >= unionId.length || q < 0 || q >= unionId.length) {
-            throw new IllegalArgumentException("invail index");
+            throw new IllegalArgumentException("invalid index");
         }
         int pId = find(p);
         int qId = find(q);
