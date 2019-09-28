@@ -58,7 +58,6 @@ public class SingleSourcePath {
             }
             res.add(source);
             Collections.reverse(res);
-            return res;
         }
         return res;
     }
