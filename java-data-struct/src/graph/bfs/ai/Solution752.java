@@ -1,4 +1,4 @@
-package graph.ai;
+package graph.bfs.ai;
 
 /**
  * https://leetcode-cn.com/problems/open-the-lock/
@@ -9,7 +9,4 @@ public class Solution752 {
         return 0;
     }
 
-    public static void main(String[] args) {
-
-    }
 }

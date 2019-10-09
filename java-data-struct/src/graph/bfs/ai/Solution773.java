@@ -1,4 +1,4 @@
-package graph.ai;
+package graph.bfs.ai;
 
 import java.util.ArrayList;
 import java.util.HashMap;

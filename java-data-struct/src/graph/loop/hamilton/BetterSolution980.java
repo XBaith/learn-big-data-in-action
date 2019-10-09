@@ -1,4 +1,4 @@
-package graph.loop;
+package graph.loop.hamilton;
 
 class BetterSolution980 {
     private int[][] dirs = {{-1, 0}, {0, 1}, {1, 0}, {0, -1}};

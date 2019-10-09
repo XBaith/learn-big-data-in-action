@@ -45,10 +45,11 @@ public class GraphDFS {
     }
 
     //前序非递归dfs
-    private void nonRecursivePreOrderDfs(int v, int ccid){
+    private void nonRecurDfs(int v, int ccid){
         Stack<Integer> stack = new Stack<>();
         visited[v] = ccid;
         stack.push(v);
+
         while(!stack.isEmpty()){
             int vertex = stack.pop();
             preOrder.add(vertex);

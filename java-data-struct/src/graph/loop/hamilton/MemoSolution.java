@@ -1,4 +1,4 @@
-package graph.loop;
+package graph.loop.hamilton;
 
 import java.util.Arrays;
 

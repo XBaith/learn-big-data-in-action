@@ -1,11 +1,11 @@
-package graph.bridge;
+package graph.cut;
 
 import graph.representation.Edge;
 import graph.representation.Graph;
 
 import java.util.ArrayList;
 
-public class FindBridges {
+public class CutBridges {
     private Graph graph;
     private boolean[] visited;
     private int vs;
@@ -15,7 +15,7 @@ public class FindBridges {
 
     private ArrayList<Edge> bridges;
 
-    public FindBridges(Graph g){
+    public CutBridges(Graph g){
         graph = g;
         vs = g.getVertexes();
         visited = new boolean[vs];
@@ -53,15 +53,15 @@ public class FindBridges {
 
     public static void main(String[] args) {
         Graph graph = new Graph("input/bridge.txt");
-        FindBridges fb = new FindBridges(graph);
-        System.out.println(fb.getBridges());
+        CutBridges cb = new CutBridges(graph);
+        System.out.println(cb.getBridges());
 
         Graph bridgesGraph = new Graph("input/bridges.txt");
-        FindBridges bridges = new FindBridges(bridgesGraph);
+        CutBridges bridges = new CutBridges(bridgesGraph);
         System.out.println(bridges.getBridges());
 
         Graph treeGraph = new Graph("input/tree.txt");
-        FindBridges tree = new FindBridges(treeGraph);
+        CutBridges tree = new CutBridges(treeGraph);
         System.out.println(tree.getBridges());
     }
 }

@@ -2,14 +2,14 @@ package graph.dfs;
 
 import graph.representation.Graph;
 
-public class BinaryGragh {
+public class BipartitionDFS {
     private Graph graph;
     private boolean[] visited;
     private int vs;
     private int[] color;
     private boolean isBipartite = true;
 
-    public BinaryGragh(Graph graph){
+    public BipartitionDFS(Graph graph){
         this.graph = graph;
         vs = graph.getVertexes();
         visited = new boolean[vs];
@@ -52,7 +52,7 @@ public class BinaryGragh {
 
     public static void main(String[] args) {
         Graph graph = new Graph("input/color.txt");
-        BinaryGragh bg = new BinaryGragh(graph);
+        BipartitionDFS bg = new BipartitionDFS(graph);
 
         for(int c : bg.getColor()) {
             System.out.print(c + " ");
@@ -61,7 +61,7 @@ public class BinaryGragh {
         System.out.println(bg.isBipartite());
 
         Graph graph2 = new Graph("input/non-bipartite");
-        BinaryGragh bg2 = new BinaryGragh(graph2);
+        BipartitionDFS bg2 = new BipartitionDFS(graph2);
 
         for(int c : bg2.getColor()) {
             System.out.print(c + " ");

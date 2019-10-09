@@ -1,4 +1,4 @@
-package graph.bridge;
+package graph.cut;
 
 import graph.representation.Graph;
 
@@ -41,9 +41,9 @@ public class CutPoints {
                 child++;
                 dfs(w, v);
                 low[v] = Math.min(low[v], low[w]);
-                if(v != parent && low[w] >= order[v])
+                if(v != parent && low[w] >= order[v] && !points.contains(v))
                     points.add(v);
-                else if(v == parent && child > 1)
+                else if(v == parent && child > 1 && !points.contains(v))
                     points.add(v);
             }else if(w != parent){
                 low[v] = Math.min(low[v], low[w]);

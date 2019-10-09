@@ -44,6 +44,7 @@ public class BreakDFS {
         visited[source] = true;
         pre[source] = parent;
         if(source == target) return true;
+
         for(int w : graph.adj(source))
             if(!visited[w]){
                 if(dfs(w, source)){

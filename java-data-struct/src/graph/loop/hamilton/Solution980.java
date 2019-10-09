@@ -1,4 +1,4 @@
-package graph.loop;
+package graph.loop.hamilton;
 
 public class Solution980 {
     private int[][] grid;

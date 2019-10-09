@@ -4,7 +4,7 @@ import java.io.File;
 import java.io.IOException;
 import java.util.*;
 
-public class AdjTreeSet {
+public class AdjTreeSet implements Cloneable{
     private int vertexes;
     private int edges;
     private TreeSet<Integer>[] adj;
@@ -66,6 +66,32 @@ public class AdjTreeSet {
         return adj[v].size();
     }
 
+    public void removeEdge(int from, int to){
+        validVertex(from);
+        validVertex(to);
+        adj[from].remove(to);
+        adj[to].remove(from);
+    }
+
+    @Override
+    public Object clone() {
+        Graph cloned = null;
+        try {
+            cloned = (Graph) super.clone();
+            cloned.setAdj(new TreeSet[vertexes]);
+            for (int v = 0; v < vertexes; v++) {
+                cloned.getAdj()[v] = new TreeSet<>();
+                for (int w : adj(v)) {
+                    cloned.getAdj()[v].add(w);
+                }
+            }
+
+        }catch (CloneNotSupportedException e){
+            e.printStackTrace();
+        }
+        return cloned;
+    }
+
     @Override
     public String toString() {
         StringBuilder sb = new StringBuilder();
@@ -86,6 +112,14 @@ public class AdjTreeSet {
             sb.append('\n');
         }
         return sb.toString();
+    }
+
+    public void setAdj(TreeSet<Integer>[] newAdj){
+        this.adj = newAdj;
+    }
+
+    public TreeSet<Integer>[] getAdj(){
+        return adj;
     }
 
     public static void main(String[] args) {
