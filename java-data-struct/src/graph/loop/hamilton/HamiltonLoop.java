@@ -4,42 +4,49 @@ import graph.representation.Graph;
 
 import java.util.LinkedList;
 
-public class BetterHamilton {
+public class HamiltonLoop {
     private Graph graph;
+    private boolean[] visited;
     private int vs;
     private int[] pre;
     private int end = -1;
 
-    public BetterHamiltonLoop(Graph g){
+    public HamiltonLoop(Graph g){
         graph = g;
         vs = g.getVertexes();
+        visited = new boolean[vs];
         pre = new int[vs];
 
-        //表示已经遍历过的顶点个数
-        int visited = 0;
-        dfs(visited, 0, 0, vs);
+        dfs(0, 0, vs);
     }
 
-    private boolean dfs(int visited, int v, int parent, int left) {
-        visited += (1 << v);
+    private boolean dfs(int v, int parent, int left) {
+        visited[v] = true;
         pre[v] = parent;
         left--;
 
         for(int w : graph.adj(v)){
-            if((visited & (1 << w)) == 0){
-                if(dfs(visited, w, v, left))
+            if(!visited[w]){
+                if(dfs(w, v, left))
                     return true;
             }else if(w == 0 && left == 0){
                 end = v;
                 return true;
             }
         }
-        visited -= (1 << v);
+        visited[v] = false;
         return false;
     }
 
+    private boolean allVisited(){
+        for(boolean v : visited){
+            if(!v)
+                return false;
+        }
+        return true;
+    }
 
-    public Iterable<Integer> path(){
+    public Iterable<Integer> hamiltonLoop(){
         LinkedList<Integer> ret = new LinkedList<>();
         if(end == -1) return ret;
 
@@ -55,12 +62,12 @@ public class BetterHamilton {
 
     public static void main(String[] args) {
         Graph simpleGraph = new Graph("input/hamiltonloop");
-        BetterHamilton simpleHm = new BetterHamilton(simpleGraph);
-        System.out.println(simpleHm.path());
+        HamiltonLoop simpleHm = new HamiltonLoop(simpleGraph);
+        System.out.println(simpleHm.hamiltonLoop());
 
         Graph hmGraph = new Graph("input/hamilton.txt");
-        BetterHamilton hamiltonLoop = new BetterHamilton(hmGraph);
-        System.out.println(hamiltonLoop.path());
+        HamiltonLoop hamiltonLoop = new HamiltonLoop(hmGraph);
+        System.out.println(hamiltonLoop.hamiltonLoop());
     }
 
 }
