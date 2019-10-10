@@ -90,8 +90,4 @@ public class AdjHashSet {
         return sb.toString();
     }
 
-    public static void main(String[] args) {
-        AdjHashSet set = new AdjHashSet("input/g.txt");
-        System.out.println(set);
-    }
 }

@@ -114,7 +114,7 @@ public class AdjTreeSet implements Cloneable{
         return sb.toString();
     }
 
-    public void setAdj(TreeSet<Integer>[] newAdj){
+    public void setAdj(TreeSet[] newAdj){
         this.adj = newAdj;
     }
 
@@ -122,8 +122,4 @@ public class AdjTreeSet implements Cloneable{
         return adj;
     }
 
-    public static void main(String[] args) {
-        AdjTreeSet set = new AdjTreeSet("input/g.txt");
-        System.out.println(set);
-    }
 }

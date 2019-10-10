@@ -90,8 +90,4 @@ public class AdjList {
         return sb.toString();
     }
 
-    public static void main(String[] args) {
-        AdjList list = new AdjList("input/g.txt");
-        System.out.println(list);
-    }
 }

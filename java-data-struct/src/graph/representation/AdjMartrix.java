@@ -83,8 +83,4 @@ public class AdjMartrix {
         return sb.toString();
     }
 
-    public static void main(String[] args) {
-        AdjMartrix martrix = new AdjMartrix("input/g.txt");
-        System.out.println(martrix);
-    }
 }
