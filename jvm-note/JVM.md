@@ -142,7 +142,7 @@ public static int calc();
 
 #### 自动装箱，拆箱与遍历循环
 
-```java
+```
 List<Integer> list = Arrays.asList(1, 2, 3, 4);
 for(int i : list){
     
@@ -151,7 +151,7 @@ for(int i : list){
 
 等价于
 
-```java
+```
 List list = Arrays.asList(new Integer[]{
     Integer.valueof(1),
     Integer.valueof(2),
@@ -169,7 +169,7 @@ for(Iterator localIterator = list.iterator(); localIterator.hasNext(); ) {
 
 Java中直接通过if条件语句做到条件编译，例如：
 
-```java
+```
 public static void main(String[] args) {
     if(true)　{
         System.out.println("block1");
@@ -181,9 +181,23 @@ public static void main(String[] args) {
 
 经过编译器优化后就变成
 
-```java
+```
 public static void main(String[] args) {
     System.out.println("block1");
 }
 ```
+
+
+
+## 第11章　晚期（运行期）优化
+
+### 1. 概述
+
+当虚拟机发现否个方法或代码块运行的特别频繁时，就会认定这段代码为”热点代码“，此时，虚拟机会将”热点代码“编译为本地平台相关的机器码，用来提高效率。交给Just In Time Compiler(JIT)即时编译器来完成。
+
+代码优化是建立在某种中间表示(HIR, LIR)或者机器码的层面，绝不是源码之上。
+
+### 2. HotSpot虚拟机内的JIT
+
+#### (1) 解释器与编译器
 

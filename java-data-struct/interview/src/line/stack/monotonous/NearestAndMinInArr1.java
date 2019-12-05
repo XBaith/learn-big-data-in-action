@@ -3,7 +3,8 @@ package line.stack.monotonous;
 import java.util.Stack;
 
 /**
- * 算出一个没有重复元素的数组中，x位置左右两侧离它最近且小于其值的索引
+ * 单调栈结构
+ * 算出一个<b>没有重复元素</b>的数组中，x位置左右两侧离它最近且小于其值的索引
  * 借助于单调递减栈（自顶向底递减），可以达到O(n)
  */
 public class NearestAndMinInArr1 {
@@ -38,7 +39,7 @@ public class NearestAndMinInArr1 {
         int[][] res = nNmA.nearestAndMin(arr);
         for(int i = 0; i < res.length; i++) {
             int left = res[i][0], right = res[i][1];
-            System.out.println("[" + left + ", " + right + "]");
+            System.out.println(i + " : [" + left + ", " + right + "]");
         }
     }
 }
