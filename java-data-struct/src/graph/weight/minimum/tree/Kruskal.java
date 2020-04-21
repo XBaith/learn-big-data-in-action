@@ -1,4 +1,4 @@
-package graph.weight.minimum;
+package graph.weight.minimum.tree;
 
 import graph.weight.representation.WeightedEdge;
 import graph.weight.representation.WeightedGraph;

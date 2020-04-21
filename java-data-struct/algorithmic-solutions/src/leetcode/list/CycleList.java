@@ -1,6 +1,6 @@
-package leetcode.list.util;
+package leetcode.list;
 
-import scala.reflect.internal.pickling.UnPickler;
+import leetcode.list.util.ListNode;
 
 import java.util.Scanner;
 

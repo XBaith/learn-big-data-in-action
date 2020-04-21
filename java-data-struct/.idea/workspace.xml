@@ -2,35 +2,67 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="14053e51-4bfc-4c6a-a251-26754fe6006f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/algorithmic-solutions/src/leetcode/dp/Solution121.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithmic-solutions/src/leetcode/dp/Solution121Scala.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithmic-solutions/src/leetcode/list/AddTwoNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithmic-solutions/src/leetcode/list/util/ListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithmic-solutions/src/leetcode/backtrack/Combinations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithmic-solutions/src/leetcode/backtrack/Permutations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithmic-solutions/src/leetcode/backtrack/PhoneNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithmic-solutions/src/leetcode/list/CycleList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithmic-solutions/src/leetcode/list/CycleListII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/graph/digraph/EulerLoop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jvm-note/jvm-note.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hadoop-lesson/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hadoop-lesson/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hadoop-lesson/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hadoop-lesson/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hadoop-lesson/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hadoop-lesson/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hadoop-lesson/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hadoop-lesson/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hadoop-lesson/src/main/java/com/bigdata/mapreduce/access/AccessDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hadoop-lesson/src/main/java/com/bigdata/mapreduce/access/AccessDriver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../hbase-lesson/.idea/$PRODUCT_WORKSPACE_FILE$" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../hbase-lesson/hbase-lesson.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../hbase-lesson/src/main/java/hbase/App.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../hbase-lesson/src/test/java/hbase/AppTest.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/java-data-struct.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/java-data-struct.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithmic-solutions/src/leetcode/queue/MaxQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithmic-solutions/src/leetcode/queue/MaxQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithmic-solutions/src/leetcode/str/simple/Solution1108.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithmic-solutions/src/leetcode/str/simple/Solution1108.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interview/src/line/list/CopyListWithRandPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/interview/src/line/list/CopyListWithRandPoint.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interview/src/line/list/JosephusKill.java" beforeDir="false" afterPath="$PROJECT_DIR$/interview/src/line/list/JosephusKill.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interview/src/line/list/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/interview/src/line/list/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interview/src/line/list/PalindromeList.java" beforeDir="false" afterPath="$PROJECT_DIR$/interview/src/line/list/PalindromeList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interview/src/line/list/PartitionList.java" beforeDir="false" afterPath="$PROJECT_DIR$/interview/src/line/list/PartitionList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interview/src/line/list/RemoveMid.java" beforeDir="false" afterPath="$PROJECT_DIR$/interview/src/line/list/RemoveMid.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interview/src/line/list/ReverseList.java" beforeDir="false" afterPath="$PROJECT_DIR$/interview/src/line/list/ReverseList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interview/src/line/queue/NumFitArr.java" beforeDir="false" afterPath="$PROJECT_DIR$/interview/src/line/queue/NumFitArr.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interview/src/line/stack/MinStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/interview/src/line/stack/MinStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interview/src/line/stack/monotonousstack/MaxRecArea.java" beforeDir="false" afterPath="$PROJECT_DIR$/interview/src/line/stack/monotonousstack/MaxRecArea.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interview/src/line/stack/monotonousstack/NearestAndMinInArr1.java" beforeDir="false" afterPath="$PROJECT_DIR$/interview/src/line/stack/monotonousstack/NearestAndMinInArr1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interview/src/line/stack/monotonousstack/NearestAndMinInArr2.java" beforeDir="false" afterPath="$PROJECT_DIR$/interview/src/line/stack/monotonousstack/NearestAndMinInArr2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interview/src/number/DistributeCandies.java" beforeDir="false" afterPath="$PROJECT_DIR$/interview/src/number/DistributeCandies.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/interview/line/stack/monotonous/NearestAndMinInArr1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/interview/line/stack/monotonous/NearestAndMinInArr2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-data-struct/META-INF/java-data-struct.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-data-struct/META-INF/java-data-struct.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithmic-solutions/src/leetcode/dp/LongestIncreasingSubseq.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithmic-solutions/src/leetcode/dp/LongestIncreasingSubseq.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithmic-solutions/src/leetcode/list/InsertSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithmic-solutions/src/leetcode/list/InsertSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithmic-solutions/src/leetcode/list/MergeTwoSortedLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithmic-solutions/src/leetcode/list/MergeTwoSortedLists.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithmic-solutions/src/leetcode/list/RemoveNthNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithmic-solutions/src/leetcode/list/RemoveNthNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithmic-solutions/src/leetcode/list/SelectSortList.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithmic-solutions/src/leetcode/list/SelectSortList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithmic-solutions/src/leetcode/list/SortList.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithmic-solutions/src/leetcode/list/SortList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithmic-solutions/src/leetcode/list/TwoListIntersection.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithmic-solutions/src/leetcode/list/TwoListIntersection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithmic-solutions/src/leetcode/list/util/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithmic-solutions/src/leetcode/list/util/ListNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithmic-solutions/src/leetcode/tree/FlattenBinaryTree2List.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithmic-solutions/src/leetcode/tree/FlattenBinaryTree2List.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithmic-solutions/src/leetcode/tree/LevelOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithmic-solutions/src/leetcode/tree/LevelOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithmic-solutions/src/leetcode/tree/PathSumIII.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithmic-solutions/src/leetcode/tree/PathSumIII.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithmic-solutions/src/leetcode/tree/PreorderAndInorder.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithmic-solutions/src/leetcode/tree/PreorderAndInorder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithmic-solutions/src/leetcode/tree/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithmic-solutions/src/leetcode/tree/TreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-data-struct/graph/representation/AdjHashSet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-data-struct/graph/representation/AdjHashSet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-data-struct/graph/representation/AdjList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-data-struct/graph/representation/AdjList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-data-struct/graph/representation/AdjMartrix.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-data-struct/graph/representation/AdjMartrix.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-data-struct/graph/representation/AdjTreeSet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-data-struct/graph/representation/AdjTreeSet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-data-struct/leetcode/dp/Solution121.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-data-struct/leetcode/dp/Solution121.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-data-struct/leetcode/dp/Solution121Scala$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-data-struct/leetcode/dp/Solution121Scala.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-data-struct/leetcode/list/AddTwoNumbers.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-data-struct/leetcode/list/AddTwoNumbers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-data-struct/leetcode/list/util/ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-data-struct/leetcode/list/util/ListNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-data-struct/leetcode/queue/MaxQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-data-struct/leetcode/queue/MaxQueue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-data-struct/leetcode/queue/priorityqueue/Solution347.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-data-struct/leetcode/queue/priorityqueue/Solution347.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-data-struct/leetcode/queue/priorityqueue/Solution347V2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-data-struct/leetcode/queue/priorityqueue/Solution347V2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-data-struct/leetcode/queue/priorityqueue/Solution692.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-data-struct/leetcode/queue/priorityqueue/Solution692.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-data-struct/leetcode/sort/Solution912.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-data-struct/leetcode/sort/Solution912.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-data-struct/leetcode/sort/SolutionQS912.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-data-struct/leetcode/sort/SolutionQS912.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-data-struct/leetcode/str/simple/Solution1108.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-data-struct/leetcode/str/simple/Solution1108.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-data-struct/pta/graph/圣诞老人.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-data-struct/pta/graph/圣诞老人.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-data-struct/pta/math/GcdLcm.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-data-struct/pta/math/GcdLcm.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-data-struct/pta/test/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-data-struct/pta/test/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-data-struct/tree/bst/BinarySearchTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-data-struct/tree/bst/BinarySearchTree.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/test/java-data-struct/graph/HashSetAndTreeSet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/java-data-struct/graph/HashSetAndTreeSet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/java-data-struct/graph/digraph/DigraphTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/java-data-struct/graph/digraph/DigraphTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/java-data-struct/graph/weight/minimum/BellmanFordTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/java-data-struct/graph/weight/minimum/BellmanFordTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/java-data-struct/graph/weight/minimum/DijkstraTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/java-data-struct/graph/weight/minimum/DijkstraTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/java-data-struct/graph/weight/minimum/FloydTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/java-data-struct/graph/weight/minimum/FloydTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/java-data-struct/graph/weight/minimum/KruskalTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/java-data-struct/graph/weight/minimum/KruskalTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/java-data-struct/graph/weight/minimum/PrimTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/java-data-struct/graph/weight/minimum/PrimTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/test/java-data-struct/tree/bst/BSTTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/java-data-struct/tree/bst/BSTTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/test/java-data-struct/tree/bst/avl/AVLTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/java-data-struct/tree/bst/avl/AVLTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/test/java-data-struct/tree/bst/segment/NumArray$Merger.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/java-data-struct/tree/bst/segment/NumArray$Merger.class" afterDir="false" />
@@ -41,7 +73,18 @@
       <change beforePath="$PROJECT_DIR$/out/test/java-data-struct/tree/trie/WordDictionary$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/java-data-struct/tree/trie/WordDictionary$Node.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/test/java-data-struct/tree/trie/WordDictionary.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/java-data-struct/tree/trie/WordDictionary.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/test/java-data-struct/utils/FileOperation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/java-data-struct/utils/FileOperation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/graph/weight/representation/WeightedGraphTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/graph/weight/representation/WeightedGraphTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/graph/digraph/DirectedCycleDetection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/graph/digraph/DirectedCycleDetection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/graph/digraph/DirectedEulerLoop.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/graph/weight/minimum/path/Dijkstra.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/graph/weight/minimum/path/Dijkstra.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/graph/weight/minimum/tree/Kruskal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/graph/weight/minimum/tree/Kruskal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/graph/weight/minimum/tree/PQPrim.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/graph/weight/minimum/tree/PQPrim.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/graph/weight/representation/WeightedEdge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/graph/weight/representation/WeightedEdge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tree/bst/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/bst/BinarySearchTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jvm-note/.idea/$PRODUCT_WORKSPACE_FILE$" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jvm-note/.idea/jvm-note.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jvm-note/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../jvm-note/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jvm-note/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../jvm-note/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jvm-note/JVM.md" beforeDir="false" afterPath="$PROJECT_DIR$/../jvm-note/JVM.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../pragmatic-scala/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pragmatic-scala/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../pragmatic-scala/.idea/pragmatic-scala.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../pragmatic-scala/.idea/pragmatic-scala.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../pragmatic-scala/programming-in-scala/src/StdInDemo.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../pragmatic-scala/programming-in-scala/src/StdInDemo.scala" afterDir="false" />
@@ -115,15 +158,15 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="/media/baith/123b86d4-6a94-41c8-994f-5786ea4c760c/.m2/repository/junit/junit/4.11" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Application.AddTwoNumbers">
-    <configuration name="AddTwoNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.list.AddTwoNumbers" />
+  <component name="RunManager" selected="Application.Permutations">
+    <configuration name="CycleListII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.list.CycleListII" />
       <module name="java-data-struct" />
       <extension name="coverage">
         <pattern>
@@ -135,25 +178,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DistributeCandies" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="number.DistributeCandies" />
-      <module name="interview" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="number.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MaxQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.queue.priorityqueue.MaxQueue" />
+    <configuration name="Permutations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.backtrack.Permutations" />
       <module name="java-data-struct" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.queue.priorityqueue.*" />
+          <option name="PATTERN" value="leetcode.backtrack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -161,25 +191,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PalindromeList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="line.list.PalindromeList" />
-      <module name="interview" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="line.list.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Solution121" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.dp.Solution121" />
+    <configuration name="PhoneNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.backtrack.PhoneNumber" />
       <module name="java-data-struct" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.dp.*" />
+          <option name="PATTERN" value="leetcode.backtrack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PreorderAndInorder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.tree.PreorderAndInorder" />
+      <module name="java-data-struct" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.tree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RemoveNthNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.list.RemoveNthNode" />
+      <module name="java-data-struct" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.list.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -189,11 +232,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.AddTwoNumbers" />
-        <item itemvalue="Application.Solution121" />
-        <item itemvalue="Application.MaxQueue" />
-        <item itemvalue="Application.DistributeCandies" />
-        <item itemvalue="Application.PalindromeList" />
+        <item itemvalue="Application.Permutations" />
+        <item itemvalue="Application.PhoneNumber" />
+        <item itemvalue="Application.CycleListII" />
+        <item itemvalue="Application.PreorderAndInorder" />
+        <item itemvalue="Application.RemoveNthNode" />
       </list>
     </recent_temporary>
   </component>
@@ -271,106 +314,93 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="647" y="224" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1575775832855">
-      <screen x="0" y="0" width="1920" height="1026" />
+    <state x="768" y="237" width="400" height="584" key="#com.intellij.ide.util.MemberChooser" timestamp="1587475556187">
+      <screen x="0" y="0" width="1920" height="1036" />
     </state>
-    <state x="647" y="224" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1026@0.0.1920.1026" timestamp="1575775832855" />
+    <state x="768" y="237" width="400" height="584" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1036/1920.0.1600.900@0.0.1920.1036" timestamp="1587475556187" />
     <state x="697" y="265" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog" timestamp="1583710789181">
       <screen x="0" y="0" width="1920" height="1036" />
     </state>
     <state x="697" y="265" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/0.0.1920.1036/1920.0.1600.900@0.0.1920.1036" timestamp="1583710789181" />
-    <state width="573" height="472" key="DebuggerActiveHint" timestamp="1583865653630">
+    <state width="573" height="472" key="DebuggerActiveHint" timestamp="1584378272527">
       <screen x="0" y="0" width="1920" height="1036" />
     </state>
-    <state width="504" height="466" key="DebuggerActiveHint/0.0.1920.1026/1920.0.1600.900@0.0.1920.1026" timestamp="1576379716631" />
-    <state width="495" height="466" key="DebuggerActiveHint/0.0.1920.1026@0.0.1920.1026" timestamp="1575780385705" />
-    <state width="573" height="472" key="DebuggerActiveHint/0.0.1920.1036/1920.0.1600.900@0.0.1920.1036" timestamp="1583865653630" />
-    <state width="477" height="410" key="DebuggerActiveHint/0.0.1920.1036/1920.0.1600.900@1920.0.1600.900" timestamp="1582131016136" />
+    <state width="573" height="472" key="DebuggerActiveHint/0.0.1920.1036/1920.0.1600.900@0.0.1920.1036" timestamp="1584378272527" />
+    <state width="486" height="410" key="DebuggerActiveHint/0.0.1920.1036/1920.0.1600.900@1920.0.1600.900" timestamp="1584356464633" />
     <state width="504" height="491" key="DebuggerActiveHint/0.0.1920.1080/1920.0.1600.900@0.0.1920.1080" timestamp="1582054105959" />
-    <state x="688" y="259" key="FileChooserDialogImpl" timestamp="1583710744312">
+    <state x="688" y="259" key="FileChooserDialogImpl" timestamp="1587474855053">
       <screen x="0" y="0" width="1920" height="1036" />
     </state>
-    <state x="688" y="259" key="FileChooserDialogImpl/0.0.1920.1036/1920.0.1600.900@0.0.1920.1036" timestamp="1583710744312" />
-    <state width="1868" height="324" key="GridCell.Tab.0.bottom" timestamp="1583922700034">
+    <state x="688" y="259" key="FileChooserDialogImpl/0.0.1920.1036/1920.0.1600.900@0.0.1920.1036" timestamp="1587474855053" />
+    <state width="1868" height="234" key="GridCell.Tab.0.bottom" timestamp="1587482010872">
       <screen x="0" y="0" width="1920" height="1036" />
     </state>
-    <state width="1868" height="212" key="GridCell.Tab.0.bottom/0.0.1920.1026/1920.0.1600.900@0.0.1920.1026" timestamp="1576382095519" />
-    <state width="1868" height="293" key="GridCell.Tab.0.bottom/0.0.1920.1026@0.0.1920.1026" timestamp="1577116761600" />
-    <state width="1868" height="324" key="GridCell.Tab.0.bottom/0.0.1920.1036/1920.0.1600.900@0.0.1920.1036" timestamp="1583922700034" />
-    <state width="1548" height="218" key="GridCell.Tab.0.bottom/0.0.1920.1036/1920.0.1600.900@1920.0.1600.900" timestamp="1582912443415" />
+    <state width="1868" height="234" key="GridCell.Tab.0.bottom/0.0.1920.1036/1920.0.1600.900@0.0.1920.1036" timestamp="1587482010872" />
+    <state width="1548" height="216" key="GridCell.Tab.0.bottom/0.0.1920.1036/1920.0.1600.900@1920.0.1600.900" timestamp="1584357502094" />
     <state width="1868" height="312" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1600.900@0.0.1920.1080" timestamp="1582055507483" />
-    <state width="1868" height="324" key="GridCell.Tab.0.center" timestamp="1583922700034">
+    <state width="1868" height="234" key="GridCell.Tab.0.center" timestamp="1587482010872">
       <screen x="0" y="0" width="1920" height="1036" />
     </state>
-    <state width="1868" height="212" key="GridCell.Tab.0.center/0.0.1920.1026/1920.0.1600.900@0.0.1920.1026" timestamp="1576382095519" />
-    <state width="1868" height="293" key="GridCell.Tab.0.center/0.0.1920.1026@0.0.1920.1026" timestamp="1577116761599" />
-    <state width="1868" height="324" key="GridCell.Tab.0.center/0.0.1920.1036/1920.0.1600.900@0.0.1920.1036" timestamp="1583922700034" />
-    <state width="1548" height="218" key="GridCell.Tab.0.center/0.0.1920.1036/1920.0.1600.900@1920.0.1600.900" timestamp="1582912443414" />
+    <state width="1868" height="234" key="GridCell.Tab.0.center/0.0.1920.1036/1920.0.1600.900@0.0.1920.1036" timestamp="1587482010872" />
+    <state width="1548" height="216" key="GridCell.Tab.0.center/0.0.1920.1036/1920.0.1600.900@1920.0.1600.900" timestamp="1584357502094" />
     <state width="1868" height="312" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1600.900@0.0.1920.1080" timestamp="1582055507483" />
-    <state width="1868" height="324" key="GridCell.Tab.0.left" timestamp="1583922700034">
+    <state width="1868" height="234" key="GridCell.Tab.0.left" timestamp="1587482010872">
       <screen x="0" y="0" width="1920" height="1036" />
     </state>
-    <state width="1868" height="212" key="GridCell.Tab.0.left/0.0.1920.1026/1920.0.1600.900@0.0.1920.1026" timestamp="1576382095519" />
-    <state width="1868" height="293" key="GridCell.Tab.0.left/0.0.1920.1026@0.0.1920.1026" timestamp="1577116761599" />
-    <state width="1868" height="324" key="GridCell.Tab.0.left/0.0.1920.1036/1920.0.1600.900@0.0.1920.1036" timestamp="1583922700034" />
-    <state width="1548" height="218" key="GridCell.Tab.0.left/0.0.1920.1036/1920.0.1600.900@1920.0.1600.900" timestamp="1582912443414" />
+    <state width="1868" height="234" key="GridCell.Tab.0.left/0.0.1920.1036/1920.0.1600.900@0.0.1920.1036" timestamp="1587482010872" />
+    <state width="1548" height="216" key="GridCell.Tab.0.left/0.0.1920.1036/1920.0.1600.900@1920.0.1600.900" timestamp="1584357502094" />
     <state width="1868" height="312" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1600.900@0.0.1920.1080" timestamp="1582055507483" />
-    <state width="1868" height="324" key="GridCell.Tab.0.right" timestamp="1583922700034">
+    <state width="1868" height="234" key="GridCell.Tab.0.right" timestamp="1587482010872">
       <screen x="0" y="0" width="1920" height="1036" />
     </state>
-    <state width="1868" height="212" key="GridCell.Tab.0.right/0.0.1920.1026/1920.0.1600.900@0.0.1920.1026" timestamp="1576382095519" />
-    <state width="1868" height="293" key="GridCell.Tab.0.right/0.0.1920.1026@0.0.1920.1026" timestamp="1577116761599" />
-    <state width="1868" height="324" key="GridCell.Tab.0.right/0.0.1920.1036/1920.0.1600.900@0.0.1920.1036" timestamp="1583922700034" />
-    <state width="1548" height="218" key="GridCell.Tab.0.right/0.0.1920.1036/1920.0.1600.900@1920.0.1600.900" timestamp="1582912443414" />
+    <state width="1868" height="234" key="GridCell.Tab.0.right/0.0.1920.1036/1920.0.1600.900@0.0.1920.1036" timestamp="1587482010872" />
+    <state width="1548" height="216" key="GridCell.Tab.0.right/0.0.1920.1036/1920.0.1600.900@1920.0.1600.900" timestamp="1584357502094" />
     <state width="1868" height="312" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1600.900@0.0.1920.1080" timestamp="1582055507483" />
-    <state width="1868" height="324" key="GridCell.Tab.1.bottom" timestamp="1583922700034">
+    <state width="1868" height="323" key="GridCell.Tab.1.bottom" timestamp="1587476037295">
       <screen x="0" y="0" width="1920" height="1036" />
     </state>
-    <state width="1868" height="293" key="GridCell.Tab.1.bottom/0.0.1920.1026/1920.0.1600.900@0.0.1920.1026" timestamp="1576382095517" />
-    <state width="1868" height="293" key="GridCell.Tab.1.bottom/0.0.1920.1026@0.0.1920.1026" timestamp="1577116761600" />
-    <state width="1868" height="324" key="GridCell.Tab.1.bottom/0.0.1920.1036/1920.0.1600.900@0.0.1920.1036" timestamp="1583922700034" />
-    <state width="1548" height="245" key="GridCell.Tab.1.bottom/0.0.1920.1036/1920.0.1600.900@1920.0.1600.900" timestamp="1582143732183" />
+    <state width="1868" height="323" key="GridCell.Tab.1.bottom/0.0.1920.1036/1920.0.1600.900@0.0.1920.1036" timestamp="1587476037295" />
+    <state width="1548" height="269" key="GridCell.Tab.1.bottom/0.0.1920.1036/1920.0.1600.900@1920.0.1600.900" timestamp="1584356906702" />
     <state width="1868" height="312" key="GridCell.Tab.1.bottom/0.0.1920.1080/1920.0.1600.900@0.0.1920.1080" timestamp="1582055507483" />
-    <state width="1868" height="324" key="GridCell.Tab.1.center" timestamp="1583922700034">
+    <state width="1868" height="323" key="GridCell.Tab.1.center" timestamp="1587476037295">
       <screen x="0" y="0" width="1920" height="1036" />
     </state>
-    <state width="1868" height="293" key="GridCell.Tab.1.center/0.0.1920.1026/1920.0.1600.900@0.0.1920.1026" timestamp="1576382095517" />
-    <state width="1868" height="293" key="GridCell.Tab.1.center/0.0.1920.1026@0.0.1920.1026" timestamp="1577116761600" />
-    <state width="1868" height="324" key="GridCell.Tab.1.center/0.0.1920.1036/1920.0.1600.900@0.0.1920.1036" timestamp="1583922700034" />
-    <state width="1548" height="245" key="GridCell.Tab.1.center/0.0.1920.1036/1920.0.1600.900@1920.0.1600.900" timestamp="1582143732183" />
+    <state width="1868" height="323" key="GridCell.Tab.1.center/0.0.1920.1036/1920.0.1600.900@0.0.1920.1036" timestamp="1587476037295" />
+    <state width="1548" height="269" key="GridCell.Tab.1.center/0.0.1920.1036/1920.0.1600.900@1920.0.1600.900" timestamp="1584356906702" />
     <state width="1868" height="312" key="GridCell.Tab.1.center/0.0.1920.1080/1920.0.1600.900@0.0.1920.1080" timestamp="1582055507483" />
-    <state width="1868" height="324" key="GridCell.Tab.1.left" timestamp="1583922700034">
+    <state width="1868" height="323" key="GridCell.Tab.1.left" timestamp="1587476037295">
       <screen x="0" y="0" width="1920" height="1036" />
     </state>
-    <state width="1868" height="293" key="GridCell.Tab.1.left/0.0.1920.1026/1920.0.1600.900@0.0.1920.1026" timestamp="1576382095517" />
-    <state width="1868" height="293" key="GridCell.Tab.1.left/0.0.1920.1026@0.0.1920.1026" timestamp="1577116761600" />
-    <state width="1868" height="324" key="GridCell.Tab.1.left/0.0.1920.1036/1920.0.1600.900@0.0.1920.1036" timestamp="1583922700034" />
-    <state width="1548" height="245" key="GridCell.Tab.1.left/0.0.1920.1036/1920.0.1600.900@1920.0.1600.900" timestamp="1582143732183" />
+    <state width="1868" height="323" key="GridCell.Tab.1.left/0.0.1920.1036/1920.0.1600.900@0.0.1920.1036" timestamp="1587476037295" />
+    <state width="1548" height="269" key="GridCell.Tab.1.left/0.0.1920.1036/1920.0.1600.900@1920.0.1600.900" timestamp="1584356906702" />
     <state width="1868" height="312" key="GridCell.Tab.1.left/0.0.1920.1080/1920.0.1600.900@0.0.1920.1080" timestamp="1582055507483" />
-    <state width="1868" height="324" key="GridCell.Tab.1.right" timestamp="1583922700034">
+    <state width="1868" height="323" key="GridCell.Tab.1.right" timestamp="1587476037295">
       <screen x="0" y="0" width="1920" height="1036" />
     </state>
-    <state width="1868" height="293" key="GridCell.Tab.1.right/0.0.1920.1026/1920.0.1600.900@0.0.1920.1026" timestamp="1576382095517" />
-    <state width="1868" height="293" key="GridCell.Tab.1.right/0.0.1920.1026@0.0.1920.1026" timestamp="1577116761600" />
-    <state width="1868" height="324" key="GridCell.Tab.1.right/0.0.1920.1036/1920.0.1600.900@0.0.1920.1036" timestamp="1583922700034" />
-    <state width="1548" height="245" key="GridCell.Tab.1.right/0.0.1920.1036/1920.0.1600.900@1920.0.1600.900" timestamp="1582143732183" />
+    <state width="1868" height="323" key="GridCell.Tab.1.right/0.0.1920.1036/1920.0.1600.900@0.0.1920.1036" timestamp="1587476037295" />
+    <state width="1548" height="269" key="GridCell.Tab.1.right/0.0.1920.1036/1920.0.1600.900@1920.0.1600.900" timestamp="1584356906702" />
     <state width="1868" height="312" key="GridCell.Tab.1.right/0.0.1920.1080/1920.0.1600.900@0.0.1920.1080" timestamp="1582055507483" />
     <state x="429" y="200" key="NewModule_or_Project.wizard" timestamp="1583055444731">
       <screen x="0" y="0" width="1920" height="1036" />
     </state>
     <state x="429" y="200" key="NewModule_or_Project.wizard/0.0.1920.1036/1920.0.1600.900@0.0.1920.1036" timestamp="1583055444731" />
-    <state x="0" y="0" width="1920" height="1036" key="SettingsEditor" timestamp="1583710791828">
+    <state x="0" y="0" width="1920" height="1036" key="SettingsEditor" timestamp="1587474861307">
       <screen x="0" y="0" width="1920" height="1036" />
     </state>
-    <state x="0" y="0" width="1920" height="1036" key="SettingsEditor/0.0.1920.1036/1920.0.1600.900@0.0.1920.1036" timestamp="1583710791828" />
-    <state x="499" y="403" width="914" height="241" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1576379649475">
-      <screen x="0" y="0" width="1920" height="1026" />
+    <state x="0" y="0" width="1920" height="1036" key="SettingsEditor/0.0.1920.1036/1920.0.1600.900@0.0.1920.1036" timestamp="1587474861307" />
+    <state x="2336" y="354" width="762" height="260" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1584352221385">
+      <screen x="1920" y="0" width="1600" height="900" />
     </state>
-    <state x="499" y="403" width="914" height="241" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1920.1026/1920.0.1600.900@0.0.1920.1026" timestamp="1576379649475" />
-    <state x="599" y="228" width="719" height="678" key="search.everywhere.popup" timestamp="1583357200071">
+    <state x="2336" y="354" width="762" height="260" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1920.1036/1920.0.1600.900@1920.0.1600.900" timestamp="1584352221385" />
+    <state x="557" y="226" key="run.anything.popup" timestamp="1585728745892">
       <screen x="0" y="0" width="1920" height="1036" />
     </state>
-    <state x="599" y="228" width="719" height="678" key="search.everywhere.popup/0.0.1920.1036/1920.0.1600.900@0.0.1920.1036" timestamp="1583357200071" />
+    <state x="557" y="226" key="run.anything.popup/0.0.1920.1036/1920.0.1600.900@0.0.1920.1036" timestamp="1585728745892" />
+    <state x="2384" y="196" key="run.anything.popup/0.0.1920.1036/1920.0.1600.900@1920.0.1600.900" timestamp="1584356962433" />
+    <state x="599" y="228" width="719" height="678" key="search.everywhere.popup" timestamp="1585592358800">
+      <screen x="0" y="0" width="1920" height="1036" />
+    </state>
+    <state x="599" y="228" width="719" height="678" key="search.everywhere.popup/0.0.1920.1036/1920.0.1600.900@0.0.1920.1036" timestamp="1585592358800" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -381,19 +411,24 @@
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/interview/src/line/list/PalindromeList.java</url>
-          <line>14</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/interview/src/number/DistributeCandies.java</url>
           <line>43</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/algorithmic-solutions/src/leetcode/list/AddTwoNumbers.java</url>
-          <line>103</line>
-          <option name="timeStamp" value="14" />
+          <url>file://$PROJECT_DIR$/algorithmic-solutions/src/leetcode/list/MergeTwoSortedLists.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/algorithmic-solutions/src/leetcode/list/TwoListIntersection.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/algorithmic-solutions/src/leetcode/backtrack/PhoneNumber.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="17" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

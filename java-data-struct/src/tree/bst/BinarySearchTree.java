@@ -132,6 +132,20 @@ public class BinarySearchTree<E extends Comparable<E>> {
         inOrder(root.right);
     }
 
+    public void inOderNR(Node root) {
+        Stack<Node> stack = new Stack();
+        Node cur = root;
+        while(cur != null || !stack.isEmpty()) {
+            while(cur != null) {
+                stack.push(cur);
+                cur = cur.left;
+            }
+            cur = stack.pop();
+            System.out.println(cur.e);
+            cur = cur.right;
+        }
+    }
+
     public void postOrder() {
         postOrder(root);
         System.out.println();
@@ -175,9 +189,6 @@ public class BinarySearchTree<E extends Comparable<E>> {
     }
 
     private Node findMin(Node node) {
-//        if (node == null) {
-//            return null;
-//        }
         if (node.left != null) {
             node = findMin(node.left);
         }

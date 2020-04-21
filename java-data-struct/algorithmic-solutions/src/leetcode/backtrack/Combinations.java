@@ -1,6 +1,4 @@
-package leetcode.recall;
-
-import line.array.Array;
+package leetcode.backtrack;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
@@ -24,10 +22,10 @@ import java.util.List;
  */
 public class Combinations {
 
-    List<List<Integer>> res = new ArrayList<>();
+    List<List<Integer>> res = new LinkedList<>();
 
     public List<List<Integer>> combine(int n, int k) {
-        if(n == 0 || k == 0) return null;
+        if(n == 0 || k == 0) return res;
         if(n == 1) {
             List<Integer> subRes = new LinkedList<Integer>();
             subRes.add(1);
@@ -35,31 +33,33 @@ public class Combinations {
             return res;
         }
         if(k == 1) {
-            for(int i = 1; i < n; i++) {
+            for(int i = 1; i <= n; i++) {
                 List<Integer> subRes = new LinkedList<>();
                 subRes.add(i);
                 res.add(subRes);
             }
             return res;
         }
-        for(int i = 1; i < n; i++) {
-            ArrayList<Integer> subRes = new ArrayList<Integer>(k);
-            subRes.add(i);
-            parse(n, k, i, subRes);
-        }
+        backtrack(n, k, 1, new LinkedList<>());
 
         return res;
     }
 
-    private void parse(int n, int k, int num, ArrayList<Integer> subRes) {
+    private void backtrack(int n, int k, int startWith, LinkedList<Integer> subRes) {
         if(subRes.size() == k) {
-            res.add(new ArrayList<>(subRes));
+            res.add(new LinkedList<>(subRes));
             return;
         }
-        for(int i = num; i < n; i++) {
-            subRes.add(i + 1);
-            parse(n, k, i + 1, subRes);
-            subRes.remove(Integer.valueOf(i + 1));
+        //还有k - subRes.size()个空位
+        //说明[i...n]至少有k - subRes.size()个结果
+        //k - subRes.size() = 1 => i = n - 1
+        //k - subRes.size() = 2 => i = n - 2
+        //...
+        //k - subRes.size() = k => i = n - (k - subSize()) + 1
+        for(int i = startWith; i <= n - (k - subRes.size()) + 1; i++) {
+            subRes.add(i);
+            backtrack(n, k, i + 1, subRes);
+            subRes.removeLast();
         }
     }
 
