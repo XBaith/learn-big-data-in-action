@@ -18,11 +18,27 @@ object For {
     println("嵌套迭代")
     grep(".*gcd.*")
 
+<<<<<<< HEAD
     println("中途绑定mid-stream")
     grepMidStream(".*gcd.*")
 
     println("得到新的Array集合")
     grepMidStream(".*for.*")
+=======
+    println("中途绑定(mid-stream)")
+    grepMidStream(".*gcd.*")
+
+    println("得到新的Array集合")
+    val set = grepGetArray(".*gcd.*")
+    for(length <- set)
+      print(length + "\t")
+
+    println()
+    /*continue代替方案*/
+    for(i <- 1 to 10 if (i != 0 && i != 5)) {
+      print(i + " ")
+    }
+>>>>>>> 重新拉取repo
   }
 
   /*嵌套迭代*/
@@ -39,19 +55,30 @@ object For {
 
   def grepReplaced(pattern: String) =
     for{
+<<<<<<< HEAD
       file
       <- files
       if file.getName().endsWith(".scala")
       line <- fileLines(file)
       if line.trim.matches(pattern)
+=======
+      file <- files if file.getName().endsWith(".scala")
+      line <- fileLines(file) if line.trim.matches(pattern)
+>>>>>>> 重新拉取repo
     } println(file + "　:　" + line.trim)
 
   def grepMidStream(pattern: String) =
     for {
+<<<<<<< HEAD
       file <- files
       if file.getName().endsWith(".scala");
       line <- fileLines(file)
       trimmed = line.trim
+=======
+      file <- files if file.getName().endsWith(".scala");
+      line <- fileLines(file)
+      trimmed = line.trim //中途绑定的就是trimmed变量，仅且只能有一个
+>>>>>>> 重新拉取repo
       if trimmed.matches(pattern)
     } println(file + "　:　" + trimmed)
 

@@ -33,8 +33,12 @@ def greet = println("hi")
 ```
 while((line = readLine()) != "")
 ```
+<<<<<<< HEAD
 是不可行的，因为Unit与String类型作比较永远是ture,在Java中赋值语句结果就是被赋上的值，而在Scala中赋值操作返回的是()也就是Unit，因此在Scala中，
 这样的操作是不可行的。
+=======
+是不可行的，因为Unit与String类型作比较永远是ture,在Java中赋值语句结果就是被赋上的值，而在Scala中赋值操作返回的是()也就是Unit，因此在Scala中，这样的操作是不可行的。
+>>>>>>> 重新拉取repo
 
 如果用while那么应该有var的变量配合使用，但提倡不用while和var
 ## for表达式
@@ -90,5 +94,56 @@ finally 2
 返回值是１。finally块中建议是一些避免副作用的操作，例如关闭文件流
 
 ## match表达式
+<<<<<<< HEAD
 match用法与switch差不多，都是从多个选项中进行选择，但是Java中的switch只能判断整形，字符串常量，枚举，而Scala中的case能够判断任何类型；并且
 case中隐含break；最重要的是match匹配后可以返回值。
+=======
+match用法与switch差不多，都是从多个选项中进行选择，但是Java中的switch只能判断整形，字符串常量，枚举，而Scala中的case能够判断任何类型；并且case中隐含break；最重要的是match匹配后可以返回值。
+
+## 代替方案
+
+1. 因为Scala中没有break和continue关键字，所以在循环中需要用嵌套if代替continue,布尔变量代替break。
+
+   - 另外，Scala中还提供一种高阶函数（可以将函数作为参数的函数）来处理break()（利用抛出异常来达到跳出循环的效果），breakable(op: => Unit)，即是将一个没有返回值且没有参数的函数处理，源码如下：
+
+   ```
+   	
+   ```
+
+   ​	这样在处理break()之后就可以继续执行后续的代码，否则就会直接抛出异常。
+
+   - 对于continue，可以在for循环中加入过滤条件(if)，例如如下就可以跳过第0和第5
+
+     ```
+     for (i <- 0 to 10 if (i != 0 && i != 5))
+     ```
+
+     
+
+2. 用递归代替while循环与var
+
+   ```
+   var i = 0
+   car flag = false
+   while(i < args.length && ! flag) {
+       if(!args(i).startWith("-"))
+       	if(args(i).endWith(".scala")) flag = true
+       i = i + 1
+   }
+   ```
+
+   代替为
+
+   ```
+   def searchFrom(i : Int) : Int {
+   	if(args(i).startWith("-"))	searchFrom(i + 1)
+   	else if(args(i).endWith(".scala"))	i
+   	else searchFrom(i + 1)
+   }
+   
+   val i = searchFrom(0)
+   ```
+
+   
+
+>>>>>>> 重新拉取repo

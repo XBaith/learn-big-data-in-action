@@ -3,6 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/pragmatic-scala.iml" filepath="$PROJECT_DIR$/.idea/pragmatic-scala.iml" />
+<<<<<<< HEAD
+=======
+      <module fileurl="file://$PROJECT_DIR$/sgg/sgg.iml" filepath="$PROJECT_DIR$/sgg/sgg.iml" />
+>>>>>>> 重新拉取repo
     </modules>
   </component>
 </project>

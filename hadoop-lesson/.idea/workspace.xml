@@ -2,31 +2,64 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1299e474-cace-4a42-a746-e25d0e5a180e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bigdata/mapreduce/wc/WordCountDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bigdata/mapreduce/wc/WordCountDriver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bigdata/mapreduce/wc2/WordCountV1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bigdata/mapreduce/wc2/WordCountV1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/hadoop/io/nativeio/NativeIO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/hadoop/guide/serialization/MyWritable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hadoop/guide/serialization/MyWritable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/bigdata/zip/FileDecompressor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bigdata/zip/FileDecompressor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/bigdata/zip/PooledStreamCompressor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bigdata/zip/PooledStreamCompressor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/log4j.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/apache/hadoop/io/nativeio/NativeIO$CachedUid.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/apache/hadoop/io/nativeio/NativeIO$POSIX$CacheManipulator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/apache/hadoop/io/nativeio/NativeIO$POSIX$CachedName.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/apache/hadoop/io/nativeio/NativeIO$POSIX$IdCache.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/apache/hadoop/io/nativeio/NativeIO$POSIX$NoMlockCacheManipulator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/apache/hadoop/io/nativeio/NativeIO$POSIX$Stat.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/apache/hadoop/io/nativeio/NativeIO$POSIX.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/apache/hadoop/io/nativeio/NativeIO$Windows$AccessRight.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/apache/hadoop/io/nativeio/NativeIO$Windows.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/apache/hadoop/io/nativeio/NativeIO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/hadoop/guide/sequencefile/SequenceFileReadDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/hadoop/guide/sequencefile/SequenceFileReadDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/hadoop/guide/sequencefile/SequenceFileWriteDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/hadoop/guide/sequencefile/SequenceFileWriteDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bigdata/mapreduce/access/AccessDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bigdata/mapreduce/access/AccessDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hbase-lesson/.idea/$PRODUCT_WORKSPACE_FILE$" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hbase-lesson/hbase-lesson.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hbase-lesson/src/main/java/hbase/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hbase-lesson/src/test/java/hbase/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-data-struct/.idea/java-data-struct.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-data-struct/.idea/java-data-struct.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-data-struct/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-data-struct/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-data-struct/algorithmic-solutions/src/leetcode/dp/LongestIncreasingSubseq.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-data-struct/algorithmic-solutions/src/leetcode/dp/LongestIncreasingSubseq.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-data-struct/algorithmic-solutions/src/leetcode/list/InsertSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-data-struct/algorithmic-solutions/src/leetcode/list/InsertSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-data-struct/algorithmic-solutions/src/leetcode/list/MergeTwoSortedLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-data-struct/algorithmic-solutions/src/leetcode/list/MergeTwoSortedLists.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-data-struct/algorithmic-solutions/src/leetcode/list/RemoveNthNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-data-struct/algorithmic-solutions/src/leetcode/list/RemoveNthNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-data-struct/algorithmic-solutions/src/leetcode/list/SelectSortList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-data-struct/algorithmic-solutions/src/leetcode/list/SelectSortList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-data-struct/algorithmic-solutions/src/leetcode/list/SortList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-data-struct/algorithmic-solutions/src/leetcode/list/SortList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-data-struct/algorithmic-solutions/src/leetcode/list/TwoListIntersection.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-data-struct/algorithmic-solutions/src/leetcode/list/TwoListIntersection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-data-struct/algorithmic-solutions/src/leetcode/list/util/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-data-struct/algorithmic-solutions/src/leetcode/list/util/ListNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-data-struct/out/production/java-data-struct/leetcode/list/AddTwoNumbers.class" beforeDir="false" afterPath="$PROJECT_DIR$/../java-data-struct/out/production/java-data-struct/leetcode/list/AddTwoNumbers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-data-struct/out/production/java-data-struct/leetcode/list/util/ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/../java-data-struct/out/production/java-data-struct/leetcode/list/util/ListNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jvm-note/.idea/$PRODUCT_WORKSPACE_FILE$" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jvm-note/.idea/jvm-note.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jvm-note/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../jvm-note/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jvm-note/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../jvm-note/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragmatic-scala/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pragmatic-scala/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragmatic-scala/.idea/pragmatic-scala.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../pragmatic-scala/.idea/pragmatic-scala.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragmatic-scala/programming-in-scala/src/StdInDemo.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../pragmatic-scala/programming-in-scala/src/StdInDemo.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragmatic-scala/programming-in-scala/src/capter7/For.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../pragmatic-scala/programming-in-scala/src/capter7/For.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragmatic-scala/programming-in-scala/src/capter7/Match.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../pragmatic-scala/programming-in-scala/src/capter7/Match.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragmatic-scala/programming-in-scala/src/capter7/TryCatchFinally.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../pragmatic-scala/programming-in-scala/src/capter7/TryCatchFinally.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragmatic-scala/programming-in-scala/src/capter7/While.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../pragmatic-scala/programming-in-scala/src/capter7/While.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragmatic-scala/programming-in-scala/src/capter7/build-in-control-structure.md" beforeDir="false" afterPath="$PROJECT_DIR$/../pragmatic-scala/programming-in-scala/src/capter7/build-in-control-structure.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragmatic-scala/programming-in-scala/src/capter8/函数与闭包.md" beforeDir="false" afterPath="$PROJECT_DIR$/../pragmatic-scala/programming-in-scala/src/capter8/函数与闭包.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragmatic-scala/sgg/sgg.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../pragmatic-scala/sgg/sgg.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragmatic-scala/sgg/src/capter05/CatchException.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../pragmatic-scala/sgg/src/capter05/CatchException.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragmatic-scala/sgg/src/capter05/LazyFunction.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../pragmatic-scala/sgg/src/capter05/LazyFunction.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragmatic-scala/sgg/src/chapter07/MyPackage.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../pragmatic-scala/sgg/src/chapter07/MyPackage.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragmatic-scala/sgg/src/chapter07/package.md" beforeDir="false" afterPath="$PROJECT_DIR$/../pragmatic-scala/sgg/src/chapter07/package.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragmatic-scala/src/scala/pragmatic/function/CurryingDemo.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../pragmatic-scala/src/scala/pragmatic/function/CurryingDemo.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragmatic-scala/src/scala/pragmatic/function/ExecuteAroundMethod.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../pragmatic-scala/src/scala/pragmatic/function/ExecuteAroundMethod.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragmatic-scala/src/scala/pragmatic/function/FoldLeft.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../pragmatic-scala/src/scala/pragmatic/function/FoldLeft.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragmatic-scala/src/scala/pragmatic/function/FuncDemo.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../pragmatic-scala/src/scala/pragmatic/function/FuncDemo.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragmatic-scala/src/scala/pragmatic/function/LoanPattern.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../pragmatic-scala/src/scala/pragmatic/function/LoanPattern.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragmatic-scala/src/scala/pragmatic/function/Underscorc.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../pragmatic-scala/src/scala/pragmatic/function/Underscorc.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragmatic-scala/src/scala/pragmatic/function/function.md" beforeDir="false" afterPath="$PROJECT_DIR$/../pragmatic-scala/src/scala/pragmatic/function/function.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragmatic-scala/src/scala/pragmatic/function/复用函数.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../pragmatic-scala/src/scala/pragmatic/function/复用函数.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragmatic-scala/src/scala/pragmatic/function/部分应用函数.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../pragmatic-scala/src/scala/pragmatic/function/部分应用函数.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragmatic-scala/src/scala/pragmatic/implicitt/Mask.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../pragmatic-scala/src/scala/pragmatic/implicitt/Mask.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragmatic-scala/src/scala/pragmatic/mytrait/DecoratorPattern.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../pragmatic-scala/src/scala/pragmatic/mytrait/DecoratorPattern.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragmatic-scala/src/scala/pragmatic/mytrait/TraitDemo.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../pragmatic-scala/src/scala/pragmatic/mytrait/TraitDemo.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragmatic-scala/src/scala/pragmatic/partternmatching/MatchDemo.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../pragmatic-scala/src/scala/pragmatic/partternmatching/MatchDemo.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragmatic-scala/src/scala/pragmatic/set/ForDemo.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../pragmatic-scala/src/scala/pragmatic/set/ForDemo.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragmatic-scala/src/scala/pragmatic/set/ListDemo.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../pragmatic-scala/src/scala/pragmatic/set/ListDemo.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragmatic-scala/src/scala/pragmatic/set/MapDemo.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../pragmatic-scala/src/scala/pragmatic/set/MapDemo.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragmatic-scala/src/scala/pragmatic/set/SetDemo.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../pragmatic-scala/src/scala/pragmatic/set/SetDemo.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragmatic-scala/src/scala/pragmatic/set/Simple.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../pragmatic-scala/src/scala/pragmatic/set/Simple.scala" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -78,11 +111,6 @@
         <option name="vmOptionsForImporter" value="-Xms1024m -Xmx2048m" />
       </MavenImportingSettings>
     </option>
-    <option name="enabledProfiles">
-      <list>
-        <option value="nexus" />
-      </list>
-    </option>
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
@@ -91,7 +119,13 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SearchEverywhereHistoryKey" value="IPSeekerU&#9;PSI&#9;JAVA://com.bigdata.project.utils.IPSeeker.IPSeekerUtils" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -120,18 +154,6 @@
       <recent name="D:\IDEAProject\hadoopLesson\input\raw" />
       <recent name="D:\IDEAProject\hadoopLesson\src\main\java" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="Application.WrodCount">
     <configuration name="PVStatApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -206,8 +228,8 @@
       <item itemvalue="Application.PartitionByProvinceMultipleOutputs" />
       <item itemvalue="Application.PVStatApp" />
       <item itemvalue="Application.ProvinceStatApp" />
-      <item itemvalue="JUnit.MyWritable.writableTest" />
       <item itemvalue="Application.WrodCount" />
+      <item itemvalue="JUnit.MyWritable.writableTest" />
     </list>
     <recent_temporary>
       <list>
@@ -317,6 +339,12 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2547" y="331" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1584904878111">
+      <screen x="1920" y="0" width="1600" height="900" />
+    </state>
+    <state x="2547" y="331" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1036/1920.0.1600.900@1920.0.1600.900" timestamp="1584904878111" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

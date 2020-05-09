@@ -21,7 +21,6 @@ public class AccessDriver {
         Job job = Job.getInstance(configuration);
         //System.setProperty("HADOOP_USER_NAME", properties.getProperty(Constants.USERNAME));
 
-
         job.setJarByClass(AccessDriver.class);
 
         job.setMapperClass(AccessMapper.class);

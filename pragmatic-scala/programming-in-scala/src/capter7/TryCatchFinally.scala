@@ -22,7 +22,11 @@ object TryCatchFinally {
 
   def main(args: Array[String]): Unit = {
 
+<<<<<<< HEAD
     val file = new FileReader("./programming-in-scala/src/capter7/build-in-control-structure")
+=======
+    val file = new FileReader("capter7/build-in-control-structure.md")
+>>>>>>> 重新拉取repo
     try {
       //使用文件
     }finally {

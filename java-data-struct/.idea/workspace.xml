@@ -2,15 +2,174 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="14053e51-4bfc-4c6a-a251-26754fe6006f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithmic-solutions/src/leetcode/backtrack/Combinations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithmic-solutions/src/leetcode/backtrack/Permutations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithmic-solutions/src/leetcode/backtrack/PhoneNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithmic-solutions/src/leetcode/list/CycleList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithmic-solutions/src/leetcode/list/CycleListII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/graph/digraph/EulerLoop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jvm-note/jvm-note.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithmic-solutions/src/leetcode/dp/ClimbingStarts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithmic-solutions/src/leetcode/dp/Fibonacci.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithmic-solutions/src/leetcode/dp/IntegerBreak.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithmic-solutions/src/leetcode/dp/dp.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jvm-note/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jvm-note/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jvm-note/out/production/jvm-note/META-INF/jvm-note.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jvm-note/out/production/jvm-note/capter6/clazz/TestClass.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jvm-note/out/production/jvm-note/capter8/MethodHandleDemo$ClassA.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jvm-note/out/production/jvm-note/capter8/MethodHandleDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jvm-note/out/production/jvm-note/com/TestUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jvm-note/out/production/jvm-note/com/util/TestUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jvm-note/out/production/jvm-note/concurrency/sync/DisppearRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jvm-note/out/production/jvm-note/test/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jvm-note/src/com/TestUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jvm-note/src/com/util/TestUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jvm-note/src/concurrency/sync/DisppearRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jvm-note/src/concurrency/sync/SyncObjectCodeBlock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jvm-note/src/test/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pragmatic-scala/out/production/pragmatic-scala/FindLongLines$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pragmatic-scala/out/production/pragmatic-scala/FindLongLines.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pragmatic-scala/out/production/pragmatic-scala/LongLines$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pragmatic-scala/out/production/pragmatic-scala/LongLines.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pragmatic-scala/out/production/pragmatic-scala/StdInDemo$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pragmatic-scala/out/production/pragmatic-scala/StdInDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pragmatic-scala/out/production/pragmatic-scala/capter7/For$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pragmatic-scala/out/production/pragmatic-scala/capter7/For.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pragmatic-scala/out/production/pragmatic-scala/capter7/If$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pragmatic-scala/out/production/pragmatic-scala/capter7/If.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pragmatic-scala/out/production/pragmatic-scala/capter7/Match$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pragmatic-scala/out/production/pragmatic-scala/capter7/Match.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pragmatic-scala/out/production/pragmatic-scala/capter7/TryCatchFinally$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pragmatic-scala/out/production/pragmatic-scala/capter7/TryCatchFinally.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pragmatic-scala/out/production/pragmatic-scala/capter7/While$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pragmatic-scala/out/production/pragmatic-scala/capter7/While.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pragmatic-scala/out/production/pragmatic-scala/capter7/build-in-control-structure.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pragmatic-scala/out/production/pragmatic-scala/capter8/函数与闭包.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pragmatic-scala/out/production/pragmatic-scala/rational/Main$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pragmatic-scala/out/production/pragmatic-scala/rational/Main$delayedInit$body.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pragmatic-scala/out/production/pragmatic-scala/rational/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pragmatic-scala/out/production/pragmatic-scala/rational/Rational.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pragmatic-scala/out/production/pragmatic-scala/scala/pragmatic/Computer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pragmatic-scala/out/production/pragmatic-scala/scala/pragmatic/Hello$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pragmatic-scala/out/production/pragmatic-scala/scala/pragmatic/Hello.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pragmatic-scala/out/production/pragmatic-scala/scala/pragmatic/Laptop.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pragmatic-scala/out/production/pragmatic-scala/scala/pragmatic/Main$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pragmatic-scala/out/production/pragmatic-scala/scala/pragmatic/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pragmatic-scala/out/production/pragmatic-scala/scala/pragmatic/Parameterized$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pragmatic-scala/out/production/pragmatic-scala/scala/pragmatic/Parameterized$MyMap.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pragmatic-scala/out/production/pragmatic-scala/scala/pragmatic/Parameterized.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pragmatic-scala/out/production/pragmatic-scala/scala/pragmatic/Static.sc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pragmatic-scala/out/production/pragmatic-scala/scala/pragmatic/enume/Computers$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pragmatic-scala/out/production/pragmatic-scala/scala/pragmatic/enume/Computers.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pragmatic-scala/out/production/pragmatic-scala/scala/pragmatic/enume/ListComputer$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pragmatic-scala/out/production/pragmatic-scala/scala/pragmatic/enume/ListComputer$delayedInit$body.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pragmatic-scala/out/production/pragmatic-scala/scala/pragmatic/enume/ListComputer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pragmatic-scala/out/production/pragmatic-scala/scala/pragmatic/function/CurryingDemo$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pragmatic-scala/out/production/pragmatic-scala/scala/pragmatic/function/CurryingDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pragmatic-scala/out/production/pragmatic-scala/scala/pragmatic/function/ExecuteAroundMethod$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pragmatic-scala/out/production/pragmatic-scala/scala/pragmatic/function/ExecuteAroundMethod.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pragmatic-scala/out/production/pragmatic-scala/scala/pragmatic/function/FoldLeft$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pragmatic-scala/out/production/pragmatic-scala/scala/pragmatic/function/FoldLeft.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pragmatic-scala/out/production/pragmatic-scala/scala/pragmatic/function/FuncDemo$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pragmatic-scala/out/production/pragmatic-scala/scala/pragmatic/function/FuncDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pragmatic-scala/out/production/pragmatic-scala/scala/pragmatic/function/LoanPattern$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pragmatic-scala/out/production/pragmatic-scala/scala/pragmatic/function/LoanPattern.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pragmatic-scala/out/production/pragmatic-scala/scala/pragmatic/function/MyClass.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pragmatic-scala/out/production/pragmatic-scala/scala/pragmatic/function/Resource$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pragmatic-scala/out/production/pragmatic-scala/scala/pragmatic/function/Resource.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pragmatic-scala/out/production/pragmatic-scala/scala/pragmatic/function/Underscorc$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pragmatic-scala/out/production/pragmatic-scala/scala/pragmatic/function/Underscorc.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pragmatic-scala/out/production/pragmatic-scala/scala/pragmatic/function/function.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pragmatic-scala/out/production/pragmatic-scala/scala/pragmatic/function/复用函数$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pragmatic-scala/out/production/pragmatic-scala/scala/pragmatic/function/复用函数.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pragmatic-scala/out/production/pragmatic-scala/scala/pragmatic/function/部分应用函数$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pragmatic-scala/out/production/pragmatic-scala/scala/pragmatic/function/部分应用函数.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pragmatic-scala/out/production/pragmatic-scala/scala/pragmatic/implicitt/DateHelper$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pragmatic-scala/out/production/pragmatic-scala/scala/pragmatic/implicitt/DateHelper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pragmatic-scala/out/production/pragmatic-scala/scala/pragmatic/implicitt/DateUtils$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pragmatic-scala/out/production/pragmatic-scala/scala/pragmatic/implicitt/DateUtils$DateHelper$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pragmatic-scala/out/production/pragmatic-scala/scala/pragmatic/implicitt/DateUtils$DateHelper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pragmatic-scala/out/production/pragmatic-scala/scala/pragmatic/implicitt/DateUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pragmatic-scala/out/production/pragmatic-scala/scala/pragmatic/implicitt/ImplicitParameters$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pragmatic-scala/out/production/pragmatic-scala/scala/pragmatic/implicitt/ImplicitParameters$Wifi.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pragmatic-scala/out/production/pragmatic-scala/scala/pragmatic/implicitt/ImplicitParameters.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pragmatic-scala/out/production/pragmatic-scala/scala/pragmatic/implicitt/Mask$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pragmatic-scala/out/production/pragmatic-scala/scala/pragmatic/implicitt/Mask$delayedInit$body.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pragmatic-scala/out/production/pragmatic-scala/scala/pragmatic/implicitt/Mask.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pragmatic-scala/out/production/pragmatic-scala/scala/pragmatic/implicitt/MaskInterpolator$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pragmatic-scala/out/production/pragmatic-scala/scala/pragmatic/implicitt/MaskInterpolator$Interpolator$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pragmatic-scala/out/production/pragmatic-scala/scala/pragmatic/implicitt/MaskInterpolator$Interpolator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pragmatic-scala/out/production/pragmatic-scala/scala/pragmatic/implicitt/MaskInterpolator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pragmatic-scala/out/production/pragmatic-scala/scala/pragmatic/implicitt/UseDateHelper$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pragmatic-scala/out/production/pragmatic-scala/scala/pragmatic/implicitt/UseDateHelper$delayedInit$body.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pragmatic-scala/out/production/pragmatic-scala/scala/pragmatic/implicitt/UseDateHelper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pragmatic-scala/out/production/pragmatic-scala/scala/pragmatic/implicitt/UseDateUtil$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pragmatic-scala/out/production/pragmatic-scala/scala/pragmatic/implicitt/UseDateUtil$delayedInit$body.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pragmatic-scala/out/production/pragmatic-scala/scala/pragmatic/implicitt/UseDateUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pragmatic-scala/out/production/pragmatic-scala/scala/pragmatic/mytrait/Animal.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pragmatic-scala/out/production/pragmatic-scala/scala/pragmatic/mytrait/Cat.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pragmatic-scala/out/production/pragmatic-scala/scala/pragmatic/mytrait/Check.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pragmatic-scala/out/production/pragmatic-scala/scala/pragmatic/mytrait/CriminalRecordCheck.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pragmatic-scala/out/production/pragmatic-scala/scala/pragmatic/mytrait/DecoratorPattern$$anon$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pragmatic-scala/out/production/pragmatic-scala/scala/pragmatic/mytrait/DecoratorPattern$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pragmatic-scala/out/production/pragmatic-scala/scala/pragmatic/mytrait/DecoratorPattern.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pragmatic-scala/out/production/pragmatic-scala/scala/pragmatic/mytrait/Dog.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pragmatic-scala/out/production/pragmatic-scala/scala/pragmatic/mytrait/EmploymentCheck.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pragmatic-scala/out/production/pragmatic-scala/scala/pragmatic/mytrait/Friend.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pragmatic-scala/out/production/pragmatic-scala/scala/pragmatic/mytrait/GirlFriend.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pragmatic-scala/out/production/pragmatic-scala/scala/pragmatic/mytrait/Human.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pragmatic-scala/out/production/pragmatic-scala/scala/pragmatic/mytrait/Main$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pragmatic-scala/out/production/pragmatic-scala/scala/pragmatic/mytrait/Main$delayedInit$body.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pragmatic-scala/out/production/pragmatic-scala/scala/pragmatic/mytrait/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pragmatic-scala/out/production/pragmatic-scala/scala/pragmatic/mytrait/Main1$$anon$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pragmatic-scala/out/production/pragmatic-scala/scala/pragmatic/mytrait/Main1$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pragmatic-scala/out/production/pragmatic-scala/scala/pragmatic/mytrait/Main1$delayedInit$body.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pragmatic-scala/out/production/pragmatic-scala/scala/pragmatic/mytrait/Main1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pragmatic-scala/out/production/pragmatic-scala/scala/pragmatic/mytrait/Man.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pragmatic-scala/out/production/pragmatic-scala/scala/pragmatic/mytrait/Woman.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pragmatic-scala/out/production/pragmatic-scala/scala/pragmatic/pakageobject/DecimalToBinary$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pragmatic-scala/out/production/pragmatic-scala/scala/pragmatic/pakageobject/DecimalToBinary$delayedInit$body.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pragmatic-scala/out/production/pragmatic-scala/scala/pragmatic/pakageobject/DecimalToBinary.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pragmatic-scala/out/production/pragmatic-scala/scala/pragmatic/pakageobject/package$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pragmatic-scala/out/production/pragmatic-scala/scala/pragmatic/pakageobject/package.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pragmatic-scala/out/production/pragmatic-scala/scala/pragmatic/partternmatching/MatchDemo$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pragmatic-scala/out/production/pragmatic-scala/scala/pragmatic/partternmatching/MatchDemo$DAY$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pragmatic-scala/out/production/pragmatic-scala/scala/pragmatic/partternmatching/MatchDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pragmatic-scala/out/production/pragmatic-scala/scala/pragmatic/set/ForDemo$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pragmatic-scala/out/production/pragmatic-scala/scala/pragmatic/set/ForDemo$delayedInit$body.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pragmatic-scala/out/production/pragmatic-scala/scala/pragmatic/set/ForDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pragmatic-scala/out/production/pragmatic-scala/scala/pragmatic/set/ListDemo$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pragmatic-scala/out/production/pragmatic-scala/scala/pragmatic/set/ListDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pragmatic-scala/out/production/pragmatic-scala/scala/pragmatic/set/M$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pragmatic-scala/out/production/pragmatic-scala/scala/pragmatic/set/M$delayedInit$body.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pragmatic-scala/out/production/pragmatic-scala/scala/pragmatic/set/M.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pragmatic-scala/out/production/pragmatic-scala/scala/pragmatic/set/MapDemo$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pragmatic-scala/out/production/pragmatic-scala/scala/pragmatic/set/MapDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pragmatic-scala/out/production/pragmatic-scala/scala/pragmatic/set/SetDemo$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pragmatic-scala/out/production/pragmatic-scala/scala/pragmatic/set/SetDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pragmatic-scala/out/production/pragmatic-scala/scala/pragmatic/set/Simple.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pragmatic-scala/out/production/pragmatic-scala/scala/pragmatic/set/Student$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pragmatic-scala/out/production/pragmatic-scala/scala/pragmatic/set/Student.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pragmatic-scala/out/production/pragmatic-scala/scala/pragmatic/types/AnyType$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pragmatic-scala/out/production/pragmatic-scala/scala/pragmatic/types/AnyType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pragmatic-scala/out/production/pragmatic-scala/scala/pragmatic/types/EitherType$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pragmatic-scala/out/production/pragmatic-scala/scala/pragmatic/types/EitherType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pragmatic-scala/out/production/pragmatic-scala/scala/pragmatic/types/NothingType$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pragmatic-scala/out/production/pragmatic-scala/scala/pragmatic/types/NothingType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pragmatic-scala/out/production/pragmatic-scala/scala/pragmatic/types/OptionType$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pragmatic-scala/out/production/pragmatic-scala/scala/pragmatic/types/OptionType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pragmatic-scala/out/production/pragmatic-scala/scala/pragmatic/variance/CovarianceAndContravariance$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pragmatic-scala/out/production/pragmatic-scala/scala/pragmatic/variance/CovarianceAndContravariance$Computer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pragmatic-scala/out/production/pragmatic-scala/scala/pragmatic/variance/CovarianceAndContravariance$Laptop.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pragmatic-scala/out/production/pragmatic-scala/scala/pragmatic/variance/CovarianceAndContravariance.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pragmatic-scala/out/production/sgg/META-INF/sgg.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pragmatic-scala/out/production/sgg/capter05/CatchException$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pragmatic-scala/out/production/sgg/capter05/CatchException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pragmatic-scala/out/production/sgg/capter05/LazyFunction$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pragmatic-scala/out/production/sgg/capter05/LazyFunction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pragmatic-scala/out/production/sgg/chapter07/package.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pragmatic-scala/out/production/sgg/chapter07/scala/mypackage/MyPackage$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pragmatic-scala/out/production/sgg/chapter07/scala/mypackage/MyPackage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pragmatic-scala/programming-in-scala/src/capter8/FindLongLines$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pragmatic-scala/programming-in-scala/src/capter8/FindLongLines.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pragmatic-scala/programming-in-scala/src/capter8/FindLongLines.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pragmatic-scala/programming-in-scala/src/capter8/LongLines$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pragmatic-scala/programming-in-scala/src/capter8/LongLines.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pragmatic-scala/programming-in-scala/src/capter8/LongLines.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../hadoop-lesson/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hadoop-lesson/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../hadoop-lesson/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hadoop-lesson/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../hadoop-lesson/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hadoop-lesson/.idea/misc.xml" afterDir="false" />
@@ -20,66 +179,10 @@
       <change beforePath="$PROJECT_DIR$/../hbase-lesson/hbase-lesson.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../hbase-lesson/src/main/java/hbase/App.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../hbase-lesson/src/test/java/hbase/AppTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/java-data-struct.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/java-data-struct.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithmic-solutions/src/leetcode/dp/LongestIncreasingSubseq.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithmic-solutions/src/leetcode/dp/LongestIncreasingSubseq.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithmic-solutions/src/leetcode/list/InsertSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithmic-solutions/src/leetcode/list/InsertSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithmic-solutions/src/leetcode/list/MergeTwoSortedLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithmic-solutions/src/leetcode/list/MergeTwoSortedLists.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithmic-solutions/src/leetcode/list/RemoveNthNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithmic-solutions/src/leetcode/list/RemoveNthNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithmic-solutions/src/leetcode/list/SelectSortList.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithmic-solutions/src/leetcode/list/SelectSortList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithmic-solutions/src/leetcode/list/SortList.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithmic-solutions/src/leetcode/list/SortList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithmic-solutions/src/leetcode/list/TwoListIntersection.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithmic-solutions/src/leetcode/list/TwoListIntersection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithmic-solutions/src/leetcode/list/util/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithmic-solutions/src/leetcode/list/util/ListNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithmic-solutions/src/leetcode/tree/FlattenBinaryTree2List.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithmic-solutions/src/leetcode/tree/FlattenBinaryTree2List.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithmic-solutions/src/leetcode/tree/LevelOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithmic-solutions/src/leetcode/tree/LevelOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithmic-solutions/src/leetcode/tree/PathSumIII.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithmic-solutions/src/leetcode/tree/PathSumIII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithmic-solutions/src/leetcode/tree/PreorderAndInorder.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithmic-solutions/src/leetcode/tree/PreorderAndInorder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithmic-solutions/src/leetcode/tree/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithmic-solutions/src/leetcode/tree/TreeNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-data-struct/graph/representation/AdjHashSet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-data-struct/graph/representation/AdjHashSet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-data-struct/graph/representation/AdjList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-data-struct/graph/representation/AdjList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-data-struct/graph/representation/AdjMartrix.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-data-struct/graph/representation/AdjMartrix.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-data-struct/graph/representation/AdjTreeSet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-data-struct/graph/representation/AdjTreeSet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-data-struct/leetcode/dp/Solution121.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-data-struct/leetcode/dp/Solution121.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-data-struct/leetcode/dp/Solution121Scala$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-data-struct/leetcode/dp/Solution121Scala.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-data-struct/leetcode/list/AddTwoNumbers.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-data-struct/leetcode/list/AddTwoNumbers.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-data-struct/leetcode/list/util/ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-data-struct/leetcode/list/util/ListNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-data-struct/leetcode/queue/MaxQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-data-struct/leetcode/queue/MaxQueue.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-data-struct/leetcode/queue/priorityqueue/Solution347.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-data-struct/leetcode/queue/priorityqueue/Solution347.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-data-struct/leetcode/queue/priorityqueue/Solution347V2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-data-struct/leetcode/queue/priorityqueue/Solution347V2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-data-struct/leetcode/queue/priorityqueue/Solution692.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-data-struct/leetcode/queue/priorityqueue/Solution692.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-data-struct/leetcode/sort/Solution912.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-data-struct/leetcode/sort/Solution912.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-data-struct/leetcode/sort/SolutionQS912.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-data-struct/leetcode/sort/SolutionQS912.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-data-struct/leetcode/str/simple/Solution1108.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-data-struct/leetcode/str/simple/Solution1108.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-data-struct/pta/graph/圣诞老人.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-data-struct/pta/graph/圣诞老人.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-data-struct/pta/math/GcdLcm.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-data-struct/pta/math/GcdLcm.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-data-struct/pta/test/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-data-struct/pta/test/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-data-struct/tree/bst/BinarySearchTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-data-struct/tree/bst/BinarySearchTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/java-data-struct/graph/HashSetAndTreeSet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/java-data-struct/graph/HashSetAndTreeSet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/java-data-struct/graph/digraph/DigraphTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/java-data-struct/graph/digraph/DigraphTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/java-data-struct/graph/weight/minimum/BellmanFordTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/java-data-struct/graph/weight/minimum/BellmanFordTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/java-data-struct/graph/weight/minimum/DijkstraTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/java-data-struct/graph/weight/minimum/DijkstraTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/java-data-struct/graph/weight/minimum/FloydTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/java-data-struct/graph/weight/minimum/FloydTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/java-data-struct/graph/weight/minimum/KruskalTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/java-data-struct/graph/weight/minimum/KruskalTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/java-data-struct/graph/weight/minimum/PrimTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/java-data-struct/graph/weight/minimum/PrimTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/java-data-struct/tree/bst/BSTTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/java-data-struct/tree/bst/BSTTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/java-data-struct/tree/bst/avl/AVLTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/java-data-struct/tree/bst/avl/AVLTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/java-data-struct/tree/bst/segment/NumArray$Merger.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/java-data-struct/tree/bst/segment/NumArray$Merger.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/java-data-struct/tree/bst/segment/NumArray$SegmentTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/java-data-struct/tree/bst/segment/NumArray$SegmentTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/java-data-struct/tree/bst/segment/NumArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/java-data-struct/tree/bst/segment/NumArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/java-data-struct/tree/trie/MapSum$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/java-data-struct/tree/trie/MapSum$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/java-data-struct/tree/trie/MapSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/java-data-struct/tree/trie/MapSum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/java-data-struct/tree/trie/WordDictionary$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/java-data-struct/tree/trie/WordDictionary$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/java-data-struct/tree/trie/WordDictionary.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/java-data-struct/tree/trie/WordDictionary.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/java-data-struct/utils/FileOperation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/java-data-struct/utils/FileOperation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/graph/digraph/DirectedCycleDetection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/graph/digraph/DirectedCycleDetection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/graph/digraph/DirectedEulerLoop.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/graph/weight/minimum/path/Dijkstra.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/graph/weight/minimum/path/Dijkstra.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/graph/weight/minimum/tree/Kruskal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/graph/weight/minimum/tree/Kruskal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/graph/weight/minimum/tree/PQPrim.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/graph/weight/minimum/tree/PQPrim.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/graph/weight/representation/WeightedEdge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/graph/weight/representation/WeightedEdge.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tree/bst/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/bst/BinarySearchTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithmic-solutions/src/leetcode/dp/Solution121.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithmic-solutions/src/leetcode/dp/BestTime4Stock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithmic-solutions/src/leetcode/dp/Solution121Scala.scala" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../jvm-note/.idea/$PRODUCT_WORKSPACE_FILE$" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../jvm-note/.idea/jvm-note.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../jvm-note/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../jvm-note/.idea/misc.xml" afterDir="false" />
@@ -384,10 +487,10 @@
       <screen x="0" y="0" width="1920" height="1036" />
     </state>
     <state x="429" y="200" key="NewModule_or_Project.wizard/0.0.1920.1036/1920.0.1600.900@0.0.1920.1036" timestamp="1583055444731" />
-    <state x="0" y="0" width="1920" height="1036" key="SettingsEditor" timestamp="1587474861307">
+    <state x="0" y="0" width="1920" height="1036" key="SettingsEditor" timestamp="1587490163871">
       <screen x="0" y="0" width="1920" height="1036" />
     </state>
-    <state x="0" y="0" width="1920" height="1036" key="SettingsEditor/0.0.1920.1036/1920.0.1600.900@0.0.1920.1036" timestamp="1587474861307" />
+    <state x="0" y="0" width="1920" height="1036" key="SettingsEditor/0.0.1920.1036/1920.0.1600.900@0.0.1920.1036" timestamp="1587490163871" />
     <state x="2336" y="354" width="762" height="260" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1584352221385">
       <screen x="1920" y="0" width="1600" height="900" />
     </state>
