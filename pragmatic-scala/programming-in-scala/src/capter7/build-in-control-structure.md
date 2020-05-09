@@ -33,12 +33,7 @@ def greet = println("hi")
 ```
 while((line = readLine()) != "")
 ```
-<<<<<<< HEAD
-是不可行的，因为Unit与String类型作比较永远是ture,在Java中赋值语句结果就是被赋上的值，而在Scala中赋值操作返回的是()也就是Unit，因此在Scala中，
-这样的操作是不可行的。
-=======
 是不可行的，因为Unit与String类型作比较永远是ture,在Java中赋值语句结果就是被赋上的值，而在Scala中赋值操作返回的是()也就是Unit，因此在Scala中，这样的操作是不可行的。
->>>>>>> 重新拉取repo
 
 如果用while那么应该有var的变量配合使用，但提倡不用while和var
 ## for表达式
@@ -94,10 +89,6 @@ finally 2
 返回值是１。finally块中建议是一些避免副作用的操作，例如关闭文件流
 
 ## match表达式
-<<<<<<< HEAD
-match用法与switch差不多，都是从多个选项中进行选择，但是Java中的switch只能判断整形，字符串常量，枚举，而Scala中的case能够判断任何类型；并且
-case中隐含break；最重要的是match匹配后可以返回值。
-=======
 match用法与switch差不多，都是从多个选项中进行选择，但是Java中的switch只能判断整形，字符串常量，枚举，而Scala中的case能够判断任何类型；并且case中隐含break；最重要的是match匹配后可以返回值。
 
 ## 代替方案
@@ -143,7 +134,3 @@ match用法与switch差不多，都是从多个选项中进行选择，但是Jav
    
    val i = searchFrom(0)
    ```
-
-   
-
->>>>>>> 重新拉取repo

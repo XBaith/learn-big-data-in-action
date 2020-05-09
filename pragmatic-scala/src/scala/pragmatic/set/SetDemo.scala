@@ -1,9 +1,5 @@
 package scala.pragmatic.set
 
-<<<<<<< HEAD
-object SetDemo {
-
-=======
 /**
   * 无序的集合
   */
@@ -41,5 +37,4 @@ object SetDemo {
     /*迭代集合元素 foreach*/
     emps.foreach( employee => println("查看员工:" + employee))
   }
->>>>>>> 重新拉取repo
 }

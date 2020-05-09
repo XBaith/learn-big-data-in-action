@@ -1,9 +1,5 @@
 package scala.pragmatic.mytrait
 
-<<<<<<< HEAD
-object DecoratorPattern {
-
-=======
 abstract class Check {
   def check: String = s"Check application..."
 }
@@ -25,5 +21,4 @@ object DecoratorPattern {
     val employment = new Check with CriminalRecordCheck with EmploymentCheck
     println(employment.check)
   }
->>>>>>> 重新拉取repo
 }

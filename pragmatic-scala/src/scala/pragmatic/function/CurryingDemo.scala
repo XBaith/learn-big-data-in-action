@@ -1,9 +1,5 @@
 package scala.pragmatic.function
 
-<<<<<<< HEAD
-object CurryingDemo {
-
-=======
 /**
   * 柯里化
   */
@@ -18,5 +14,4 @@ object CurryingDemo {
     val arr = Array(a, b, c)
     arr
   }
->>>>>>> 重新拉取repo
 }

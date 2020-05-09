@@ -1,11 +1,8 @@
 package scala.pragmatic.mytrait
 
-<<<<<<< HEAD
-=======
 /**
   * 特质内的变量是抽象的，需要继承的类来提供
   */
->>>>>>> 重新拉取repo
 trait Friend {
   val name: String
   def listen = println(s"$name is listening...")
@@ -17,13 +14,10 @@ class Animal
 class Man(override val name: String) extends Human(name)
 class Woman(override val name: String) extends Human(name)
 
-<<<<<<< HEAD
-=======
 /**
   * 继承多个特质用with关键字
   * @param name
   */
->>>>>>> 重新拉取repo
 class Dog(override val name: String) extends Animal with Friend {
   override def listen: Unit = println(s"$name is listening quietly...")
 }
@@ -44,8 +38,6 @@ object Main extends App {
   def helpWithFriend(friend: Friend) = friend.listen
 
   helpWithFriend(maChangHui)
-<<<<<<< HEAD
-=======
 }
 
 class Cat(val name: String) extends Animal
@@ -56,5 +48,4 @@ class Cat(val name: String) extends Animal
 object Main1 extends App {
   val angel = new Cat("Angel") with Friend
   angel.listen
->>>>>>> 重新拉取repo
 }

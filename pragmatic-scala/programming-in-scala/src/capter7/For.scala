@@ -18,13 +18,6 @@ object For {
     println("嵌套迭代")
     grep(".*gcd.*")
 
-<<<<<<< HEAD
-    println("中途绑定mid-stream")
-    grepMidStream(".*gcd.*")
-
-    println("得到新的Array集合")
-    grepMidStream(".*for.*")
-=======
     println("中途绑定(mid-stream)")
     grepMidStream(".*gcd.*")
 
@@ -38,7 +31,6 @@ object For {
     for(i <- 1 to 10 if (i != 0 && i != 5)) {
       print(i + " ")
     }
->>>>>>> 重新拉取repo
   }
 
   /*嵌套迭代*/

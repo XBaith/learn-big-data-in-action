@@ -1,9 +1,5 @@
 package scala.pragmatic.set
 
-<<<<<<< HEAD
-object MapDemo {
-
-=======
 import java.util.NoSuchElementException
 
 /**
@@ -38,5 +34,4 @@ object MapDemo {
     println(s"更新后的书本数: " + books1.size)
 
   }
->>>>>>> 重新拉取repo
 }

@@ -1,9 +1,6 @@
 package scala.pragmatic.function
 
 object ExecuteAroundMethod {
-<<<<<<< HEAD
-
-=======
   def main(args: Array[String]): Unit = {
     Resource.use(res => {
       res.op1()
@@ -30,5 +27,4 @@ object Resource {
       resource.clean()
     }
   }
->>>>>>> 重新拉取repo
 }

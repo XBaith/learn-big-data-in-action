@@ -9,27 +9,14 @@ object While {
       a = b % a
       b = temp
     }
-<<<<<<< HEAD
-
-    b
-  }
-
-  def gcd(x: Long, y: Long): Long =
-    if (y == 0) x
-    else gcd(y, x % y)
-=======
     b
   }
 
   def gcd(x: Long, y: Long): Long = if (y == 0) x else gcd(y, x % y)
->>>>>>> 重新拉取repo
 
   def main(args: Array[String]): Unit = {
     println(gcdLoop(66, 42))
     println(gcd(66, 42))
-<<<<<<< HEAD
-  }
-=======
 
     /*break关键字代替方案*/
     import util.control.Breaks._
@@ -44,7 +31,4 @@ object While {
 
     println("\nwhile is done!")
   }
-
-
->>>>>>> 重新拉取repo
 }

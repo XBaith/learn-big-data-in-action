@@ -1,9 +1,5 @@
 package scala.pragmatic.function
 
-<<<<<<< HEAD
-object 部分应用函数 {
-
-=======
 import java.util.Date
 
 object 部分应用函数 {
@@ -19,5 +15,4 @@ object 部分应用函数 {
   def log(date: Date, msg: String) = {
     println(date + ", Message: " + msg)
   }
->>>>>>> 重新拉取repo
 }

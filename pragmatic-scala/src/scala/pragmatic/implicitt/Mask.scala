@@ -6,15 +6,8 @@ object Mask extends App {
   val account = "account-root"
   val balance = 20123.12
 
-<<<<<<< HEAD
-  println(mask"""Account: $account
-  |Social Security Number: $ssn
-  |Balance: $$^$balance
-  |Thanks for you bussiness.""".stripMargin)
-=======
 /*  println(mask"""Account: $account
   |Social Security Number: $ssn
   |Balance: $$^$balance
   |Thanks for you bussiness.""".stripMargin)*/
->>>>>>> 重新拉取repo
 }

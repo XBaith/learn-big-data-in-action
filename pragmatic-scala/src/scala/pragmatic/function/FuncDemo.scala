@@ -1,10 +1,6 @@
 package scala.pragmatic.function
 
-<<<<<<< HEAD
-object funcDemo {
-=======
 object FuncDemo {
->>>>>>> 重新拉取repo
   def main(args: Array[String]): Unit = {
     println(totalResult(1, 100, n => n))
     println("偶数之和：" + totalResult(1, 100, n => if(n % 2 == 0) n else 0))

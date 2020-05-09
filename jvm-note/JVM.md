@@ -1,14 +1,9 @@
-﻿# JVM
+# JVM
 
 [TOC]
 
 java8与java7的JVM模型区别：https://www.jianshu.com/p/a79b3174c2fb
 
-<<<<<<< HEAD
-=======
-
-
->>>>>>> 重新拉取repo
 ## 第8章 虚拟机字节码执行引擎
 
 ### 3. 方法调用

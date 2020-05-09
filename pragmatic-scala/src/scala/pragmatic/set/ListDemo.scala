@@ -1,9 +1,5 @@
 package scala.pragmatic.set
 
-<<<<<<< HEAD
-object ListDemo {
-
-=======
 /**
   * 有序的对象集合
   */
@@ -26,5 +22,4 @@ object ListDemo {
     println(list1 :::list)
     println(list ::: list1)
   }
->>>>>>> 重新拉取repo
 }

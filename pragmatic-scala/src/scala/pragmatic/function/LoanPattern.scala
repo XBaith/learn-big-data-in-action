@@ -1,10 +1,5 @@
 package scala.pragmatic.function
 
-<<<<<<< HEAD
-object LoanPattern {
-
-}
-=======
 import java.io.{File, PrintWriter}
 
 /**
@@ -26,6 +21,3 @@ object LoanPattern {
     }
   }
 }
-
-
->>>>>>> 重新拉取repo

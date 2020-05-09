@@ -1,9 +1,6 @@
 package scala.pragmatic.function
 
 object 复用函数 {
-<<<<<<< HEAD
-
-=======
   def main(args: Array[String]): Unit = {
     def calculator(input: Int): Int = {println(s"calc with $input"); input}
 
@@ -20,5 +17,4 @@ class MyClass(func: Int => Int) {
     print("Called... ")
     func(input)
   }
->>>>>>> 重新拉取repo
 }

@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-package chapter07
-
-object MyPackage {
-
-=======
 package chapter07 {
   package scala.mypackage {
 
@@ -14,5 +8,4 @@ package chapter07 {
     }
 
   }
->>>>>>> 重新拉取repo
 }

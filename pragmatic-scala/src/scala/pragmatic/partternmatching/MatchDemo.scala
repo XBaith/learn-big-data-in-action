@@ -1,9 +1,5 @@
 package scala.pragmatic.partternmatching
 
-<<<<<<< HEAD
-object MatchDemo {
-
-=======
 /**
   * 模式匹配可以匹配任意类型
   */
@@ -65,5 +61,4 @@ object MatchDemo {
       case _ => println("not match yet")
     }
   }
->>>>>>> 重新拉取repo
 }
