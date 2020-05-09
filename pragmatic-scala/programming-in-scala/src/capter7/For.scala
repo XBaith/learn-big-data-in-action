@@ -47,30 +47,15 @@ object For {
 
   def grepReplaced(pattern: String) =
     for{
-<<<<<<< HEAD
-      file
-      <- files
-      if file.getName().endsWith(".scala")
-      line <- fileLines(file)
-      if line.trim.matches(pattern)
-=======
       file <- files if file.getName().endsWith(".scala")
       line <- fileLines(file) if line.trim.matches(pattern)
->>>>>>> 重新拉取repo
     } println(file + "　:　" + line.trim)
 
   def grepMidStream(pattern: String) =
     for {
-<<<<<<< HEAD
-      file <- files
-      if file.getName().endsWith(".scala");
-      line <- fileLines(file)
-      trimmed = line.trim
-=======
       file <- files if file.getName().endsWith(".scala");
       line <- fileLines(file)
       trimmed = line.trim //中途绑定的就是trimmed变量，仅且只能有一个
->>>>>>> 重新拉取repo
       if trimmed.matches(pattern)
     } println(file + "　:　" + trimmed)
 
