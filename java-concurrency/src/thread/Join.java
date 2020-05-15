@@ -1,3 +1,5 @@
+package thread;
+
 /**
  * 线程B调用A.join(),说明线程A退出后才返回到join()继续执行线程B的程序
  */

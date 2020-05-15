@@ -1,7 +1,9 @@
+package thread;
+
 /**
  * Daemon作为中后台的辅助线程，在JVM关闭后不一定执行finally块
  * 因此不能指望通过finally来关闭或清理资源
- * @author acer
+ * @author jacky bai
  */
 public class Daemon {
     public static void main(String[] args) {

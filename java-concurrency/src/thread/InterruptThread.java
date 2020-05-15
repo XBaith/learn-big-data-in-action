@@ -1,3 +1,5 @@
+package thread;
+
 /**
  * 在抛出InterruptedException之后会重置interrupt属性
  */

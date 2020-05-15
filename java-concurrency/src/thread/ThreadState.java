@@ -1,7 +1,9 @@
+package thread;
+
 import java.util.concurrent.TimeUnit;
 
 /**
- * @author acer
+ * @author jacky bai
  */
 public class ThreadState {
     public static void main(String[] args) {

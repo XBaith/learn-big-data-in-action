@@ -1,3 +1,5 @@
+package thread;
+
 import java.io.IOException;
 import java.io.PipedReader;
 import java.io.PipedWriter;

@@ -1,3 +1,5 @@
+package thread;
+
 public class Profiler {
     private static final ThreadLocal<Long> TIME_THREADLOCAL = ThreadLocal.withInitial(() -> System.currentTimeMillis());
 

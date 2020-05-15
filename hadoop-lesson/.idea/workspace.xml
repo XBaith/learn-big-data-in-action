@@ -2,63 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1299e474-cace-4a42-a746-e25d0e5a180e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/hadoop-lesson.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bigdata/mapreduce/access/AccessDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bigdata/mapreduce/access/AccessDriver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hbase-lesson/.idea/$PRODUCT_WORKSPACE_FILE$" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hbase-lesson/hbase-lesson.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hbase-lesson/src/main/java/hbase/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hbase-lesson/src/test/java/hbase/AppTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java-data-struct/.idea/java-data-struct.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-data-struct/.idea/java-data-struct.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java-data-struct/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-data-struct/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java-data-struct/algorithmic-solutions/src/leetcode/dp/LongestIncreasingSubseq.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-data-struct/algorithmic-solutions/src/leetcode/dp/LongestIncreasingSubseq.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java-data-struct/algorithmic-solutions/src/leetcode/list/InsertSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-data-struct/algorithmic-solutions/src/leetcode/list/InsertSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java-data-struct/algorithmic-solutions/src/leetcode/list/MergeTwoSortedLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-data-struct/algorithmic-solutions/src/leetcode/list/MergeTwoSortedLists.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java-data-struct/algorithmic-solutions/src/leetcode/list/RemoveNthNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-data-struct/algorithmic-solutions/src/leetcode/list/RemoveNthNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java-data-struct/algorithmic-solutions/src/leetcode/list/SelectSortList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-data-struct/algorithmic-solutions/src/leetcode/list/SelectSortList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java-data-struct/algorithmic-solutions/src/leetcode/list/SortList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-data-struct/algorithmic-solutions/src/leetcode/list/SortList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java-data-struct/algorithmic-solutions/src/leetcode/list/TwoListIntersection.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-data-struct/algorithmic-solutions/src/leetcode/list/TwoListIntersection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java-data-struct/algorithmic-solutions/src/leetcode/list/util/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-data-struct/algorithmic-solutions/src/leetcode/list/util/ListNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java-data-struct/out/production/java-data-struct/leetcode/list/AddTwoNumbers.class" beforeDir="false" afterPath="$PROJECT_DIR$/../java-data-struct/out/production/java-data-struct/leetcode/list/AddTwoNumbers.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java-data-struct/out/production/java-data-struct/leetcode/list/util/ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/../java-data-struct/out/production/java-data-struct/leetcode/list/util/ListNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jvm-note/.idea/$PRODUCT_WORKSPACE_FILE$" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jvm-note/.idea/jvm-note.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jvm-note/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../jvm-note/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jvm-note/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../jvm-note/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pragmatic-scala/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pragmatic-scala/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pragmatic-scala/.idea/pragmatic-scala.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../pragmatic-scala/.idea/pragmatic-scala.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pragmatic-scala/programming-in-scala/src/StdInDemo.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../pragmatic-scala/programming-in-scala/src/StdInDemo.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pragmatic-scala/programming-in-scala/src/capter7/For.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../pragmatic-scala/programming-in-scala/src/capter7/For.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pragmatic-scala/programming-in-scala/src/capter7/Match.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../pragmatic-scala/programming-in-scala/src/capter7/Match.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pragmatic-scala/programming-in-scala/src/capter7/TryCatchFinally.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../pragmatic-scala/programming-in-scala/src/capter7/TryCatchFinally.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pragmatic-scala/programming-in-scala/src/capter7/While.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../pragmatic-scala/programming-in-scala/src/capter7/While.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pragmatic-scala/programming-in-scala/src/capter7/build-in-control-structure.md" beforeDir="false" afterPath="$PROJECT_DIR$/../pragmatic-scala/programming-in-scala/src/capter7/build-in-control-structure.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pragmatic-scala/programming-in-scala/src/capter8/函数与闭包.md" beforeDir="false" afterPath="$PROJECT_DIR$/../pragmatic-scala/programming-in-scala/src/capter8/函数与闭包.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pragmatic-scala/sgg/sgg.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../pragmatic-scala/sgg/sgg.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pragmatic-scala/sgg/src/capter05/CatchException.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../pragmatic-scala/sgg/src/capter05/CatchException.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pragmatic-scala/sgg/src/capter05/LazyFunction.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../pragmatic-scala/sgg/src/capter05/LazyFunction.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pragmatic-scala/sgg/src/chapter07/MyPackage.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../pragmatic-scala/sgg/src/chapter07/MyPackage.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pragmatic-scala/sgg/src/chapter07/package.md" beforeDir="false" afterPath="$PROJECT_DIR$/../pragmatic-scala/sgg/src/chapter07/package.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pragmatic-scala/src/scala/pragmatic/function/CurryingDemo.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../pragmatic-scala/src/scala/pragmatic/function/CurryingDemo.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pragmatic-scala/src/scala/pragmatic/function/ExecuteAroundMethod.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../pragmatic-scala/src/scala/pragmatic/function/ExecuteAroundMethod.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pragmatic-scala/src/scala/pragmatic/function/FoldLeft.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../pragmatic-scala/src/scala/pragmatic/function/FoldLeft.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pragmatic-scala/src/scala/pragmatic/function/FuncDemo.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../pragmatic-scala/src/scala/pragmatic/function/FuncDemo.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pragmatic-scala/src/scala/pragmatic/function/LoanPattern.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../pragmatic-scala/src/scala/pragmatic/function/LoanPattern.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pragmatic-scala/src/scala/pragmatic/function/Underscorc.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../pragmatic-scala/src/scala/pragmatic/function/Underscorc.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pragmatic-scala/src/scala/pragmatic/function/function.md" beforeDir="false" afterPath="$PROJECT_DIR$/../pragmatic-scala/src/scala/pragmatic/function/function.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pragmatic-scala/src/scala/pragmatic/function/复用函数.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../pragmatic-scala/src/scala/pragmatic/function/复用函数.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pragmatic-scala/src/scala/pragmatic/function/部分应用函数.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../pragmatic-scala/src/scala/pragmatic/function/部分应用函数.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pragmatic-scala/src/scala/pragmatic/implicitt/Mask.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../pragmatic-scala/src/scala/pragmatic/implicitt/Mask.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pragmatic-scala/src/scala/pragmatic/mytrait/DecoratorPattern.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../pragmatic-scala/src/scala/pragmatic/mytrait/DecoratorPattern.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pragmatic-scala/src/scala/pragmatic/mytrait/TraitDemo.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../pragmatic-scala/src/scala/pragmatic/mytrait/TraitDemo.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pragmatic-scala/src/scala/pragmatic/partternmatching/MatchDemo.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../pragmatic-scala/src/scala/pragmatic/partternmatching/MatchDemo.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pragmatic-scala/src/scala/pragmatic/set/ForDemo.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../pragmatic-scala/src/scala/pragmatic/set/ForDemo.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pragmatic-scala/src/scala/pragmatic/set/ListDemo.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../pragmatic-scala/src/scala/pragmatic/set/ListDemo.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pragmatic-scala/src/scala/pragmatic/set/MapDemo.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../pragmatic-scala/src/scala/pragmatic/set/MapDemo.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pragmatic-scala/src/scala/pragmatic/set/SetDemo.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../pragmatic-scala/src/scala/pragmatic/set/SetDemo.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pragmatic-scala/src/scala/pragmatic/set/Simple.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../pragmatic-scala/src/scala/pragmatic/set/Simple.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,8 +46,9 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="$USER_HOME$/app/apache-maven-3.2.5" />
-        <option name="userSettingsFile" value="$USER_HOME$/app/apache-maven-3.2.5/conf/settings.xml" />
+        <option name="localRepository" value="/media/baith/123b86d4-6a94-41c8-994f-5786ea4c760c/.m2/repository" />
+        <option name="mavenHome" value="$USER_HOME$/app/apache-maven-3.5.4" />
+        <option name="userSettingsFile" value="$USER_HOME$/app/apache-maven-3.5.4/conf/settings.xml" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
@@ -126,6 +73,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SearchEverywhereHistoryKey" value="IPSeekerU&#9;PSI&#9;JAVA://com.bigdata.project.utils.IPSeeker.IPSeekerUtils" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -345,6 +293,14 @@
       <screen x="1920" y="0" width="1600" height="900" />
     </state>
     <state x="2547" y="331" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1036/1920.0.1600.900@1920.0.1600.900" timestamp="1584904878111" />
+    <state x="532" y="279" key="FileChooserDialogImpl" timestamp="1589037184412">
+      <screen x="0" y="0" width="1920" height="1036" />
+    </state>
+    <state x="532" y="279" key="FileChooserDialogImpl/0.0.1920.1036/1920.0.1600.900@0.0.1920.1036" timestamp="1589037184412" />
+    <state x="0" y="0" width="1920" height="1036" key="SettingsEditor" timestamp="1589037188227">
+      <screen x="0" y="0" width="1920" height="1036" />
+    </state>
+    <state x="0" y="0" width="1920" height="1036" key="SettingsEditor/0.0.1920.1036/1920.0.1600.900@0.0.1920.1036" timestamp="1589037188227" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
